@@ -1,0 +1,17 @@
+{
+  "id": "3xpl",
+  "name": "3xpl",
+  "description": "Fastest adless universal block explorer",
+  "link": "https://3xpl.com",
+  "x": "https://x.com/3xplcom",
+  "discord": "https://3xpl.com/discord",
+  "blockchains": {
+    "bitcoin": {
+      "homepage": "https://3xpl.com/bitcoin",
+      "block": "https://3xpl.com/bitcoin/block/%block%",
+      "transaction": "https://3xpl.com/bitcoin/transaction/%transaction%",
+      "address": "https://3xpl.com/bitcoin/address/%address%",
+      "search": "https://3xpl.com/search?q=%search%"
+    }
+  }
+}

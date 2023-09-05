@@ -1,0 +1,14 @@
+{
+  "id": "bitcoin",
+  "name": "Bitcoin",
+  "foreign_ids": {
+    "coingecko": "bitcoin",
+    "coinmarketcap": "bitcoin",
+    "binance": "bitcoin"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+    "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+  }
+}
