@@ -10,7 +10,7 @@ Wouldn't be it useful for a block explorer user to be able to cross-check their 
 We thought it would, so we've decided to come up with this list of good explorers for multiple chains.
 Not only it is good for decentralization, but it also allows users to find some extra details on other explorers.
 
-We currently integrate this list on [3xpl.com](3xpl.com) (see [example transaction](https://3xpl.com/bitcoin/transaction/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)).
+We currently integrate this list on [3xpl.com](https://3xpl.com) (see [example transaction](https://3xpl.com/bitcoin/transaction/4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b)).
 
 How to add my favourite explorer?
 ---------------------------------
