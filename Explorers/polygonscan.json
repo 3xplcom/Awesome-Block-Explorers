@@ -1,0 +1,17 @@
+{
+  "id": "polygonscan",
+  "name": "Polygon PoS Chain Explorer",
+  "description": "",
+  "link": "https://polygonscan.com",
+  "x": null,
+  "discord": null,
+  "blockchains": {
+    "polygon": {
+      "homepage": "https://polygonscan.com",
+      "block": "https://polygonscan.com/block/%block%",
+      "transaction": "https://polygonscan.com/tx/%transaction%",
+      "address": "https://polygonscan.com/address/%address%",
+      "search": "https://polygonscan.com/search?q=%search%"
+    }
+  }
+}
