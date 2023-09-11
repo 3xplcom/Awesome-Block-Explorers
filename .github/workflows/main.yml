@@ -1,0 +1,8 @@
+name: GitHub Actions Demo
+run-name: ${{ github.actor }} made a pull request to explorers 🚀
+on: [pull_request]
+jobs:
+  test-json-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "🎉 triggered by a ${{ github.event_name }} event."
