@@ -1,0 +1,16 @@
+{
+  "id": "4xpl",
+  "description": "",
+  "link": "https://4xpl.com",
+  "x": null,
+  "discord": null,
+  "blockchains": {
+    "polygon": {
+      "homepage": "https://4xpl.com",
+      "block": "https://4xpl.com/block/%block%",
+      "transaction": "https://4xpl.com/tx/%transaction%",
+      "address": "https://4xpl.com/address/%address%",
+      "search": "https://4xpl.com/search?q=%search%"
+    }
+  }
+}
