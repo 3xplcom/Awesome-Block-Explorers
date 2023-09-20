@@ -7,7 +7,7 @@ on:
       - master
 jobs:
   just-checker:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -17,7 +17,7 @@ jobs:
         with:
           php-version: '8.2'
         env:
-          runner: self-hosted
+          runner: ubuntu-latest
 
       - name: Run Checker
         run: cd Utils && php Checker.php

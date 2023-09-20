@@ -12,7 +12,7 @@ permissions:
 jobs:
   check:
     if: github.event_name == 'workflow_dispatch' || (github.event.pull_request && github.event.pull_request.merged == true)
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v3
@@ -29,7 +29,7 @@ jobs:
 
   build:
     if: github.event_name == 'workflow_dispatch' || (github.event.pull_request && github.event.pull_request.merged == true)
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     needs: check
     steps:
       - name: git checkout
@@ -41,7 +41,7 @@ jobs:
           php-version: '8.2'
           extensions: yaml
         env:
-          runner: self-hosted
+          runner: ubuntu-latest
 
       - name: run builder
         run: |
