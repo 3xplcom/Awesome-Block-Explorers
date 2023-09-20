@@ -1,0 +1,14 @@
+{
+  "id": "bitcoin-cash",
+  "name": "Bitcoin Cash",
+  "foreign_ids": {
+    "coingecko": "bitcoin-cash",
+    "coinmarketcap": "bitcoin-cash",
+    "binance": "bitcoin-cash"
+  },
+  "examples": {
+    "block": "477120",
+    "transaction": "4b777745084ef83da587c7278db17f7a33ad5b831b5ee47b18c1c11c6165047c",
+    "address": "qquqx53l8ndg53hvgect6nl56zwmm37ghcu0yakvkp"
+  }
+}

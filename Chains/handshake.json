@@ -1,0 +1,14 @@
+{
+  "id": "handshake",
+  "name": "Handshake",
+  "foreign_ids": {
+    "coingecko": "handshake",
+    "coinmarketcap": "handshake",
+    "binance": "handshake"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "9553240e6f711271cfccf9407c9348996e61cb3bd39adbc2ec258ff940ff22c6",
+    "address": "hs1q7q3h4chglps004u3yn79z0cp9ed24rfr5ka9n5"
+  }
+}

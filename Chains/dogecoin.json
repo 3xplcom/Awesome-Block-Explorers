@@ -1,0 +1,14 @@
+{
+  "id": "dogecoin",
+  "name": "Dogecoin",
+  "foreign_ids": {
+    "coingecko": "dogecoin",
+    "coinmarketcap": "dogecoin",
+    "binance": "dogecoin"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69",
+    "address": "DQmCZQo3thCvTxkyAhPHfY7DVLqFtJ2ji6"
+  }
+}

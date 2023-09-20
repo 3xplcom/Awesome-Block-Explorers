@@ -1,0 +1,14 @@
+{
+  "id": "avalanche",
+  "name": "Avalanche",
+  "foreign_ids": {
+    "coingecko": "avalanche",
+    "coinmarketcap": "avalanche",
+    "binance": "avalanche"
+  },
+  "examples": {
+    "block": "100",
+    "transaction": "0x25550c5feac1c8a1c0ba5b6230627007fcac5969d3bb355483ca2aaf49796bf8",
+    "address": "0x27f6119df51a638be7b2b54811b80dd5b4caee9b"
+  }
+}

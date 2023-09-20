@@ -1,0 +1,14 @@
+{
+  "id": "tron",
+  "name": "TRON",
+  "foreign_ids": {
+    "coingecko": "tron",
+    "coinmarketcap": "tron",
+    "binance": "tron"
+  },
+  "examples": {
+    "block": "52000000",
+    "transaction": "cd1d85d34914282da1556dc4222f62ed410271f934c9fe96dcfecf1e9a810b81",
+    "address": "TWjspcCqEJYLukPZYW4V5javLw7QbRj5Ye"
+  }
+}

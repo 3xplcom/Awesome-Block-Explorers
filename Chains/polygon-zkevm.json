@@ -1,0 +1,14 @@
+{
+  "id": "polygon-zkevm",
+  "name": "Polygon zkEVM",
+  "foreign_ids": {
+    "coingecko": null,
+    "coinmarketcap": null,
+    "binance": null
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0x00e95d9d1139543ed0cd5fcdf80f078071698e9ec7da5b1012dbfb3aca5b870a",
+    "address": "0xe25ea842727b8ac593ed106dc9cb4d1562115f10"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "fantom",
+  "name": "Fantom",
+  "foreign_ids": {
+    "coingecko": "fantom",
+    "coinmarketcap": "fantom",
+    "binance": "fantom"
+  },
+  "examples": {
+    "block": "68000000",
+    "transaction": "0x1d7ac1eb1e42cecc4ecd7586b5ce7caef7f010b8ceaaa2d2e431edb7e33f548a",
+    "address": "0x6daf1f6ee738117882b02cbd7be4041d2db54125"
+  }
+}

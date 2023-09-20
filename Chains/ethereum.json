@@ -1,0 +1,14 @@
+{
+  "id": "ethereum",
+  "name": "Ethereum",
+  "foreign_ids": {
+    "coingecko": "ethereum",
+    "coinmarketcap": "ethereum",
+    "binance": "ethereum"
+  },
+  "examples": {
+    "block": "1",
+    "transaction": "0xea1093d492a1dcb1bef708f771a99a96ff05dcab81ca76c31940300177fcf49f",
+    "address": "0x2a65aca4d5fc5b5c859090a6c34d164135398226"
+  }
+}

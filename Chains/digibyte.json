@@ -1,0 +1,14 @@
+{
+  "id": "digibyte",
+  "name": "Digibyte",
+  "foreign_ids": {
+    "coingecko": "digibyte",
+    "coinmarketcap": "digibyte",
+    "binance": "digibyte"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "04955b63cae6a782aa43eedd4307f1145409a2771a2eed007300c48e472ac481",
+    "address": "DGbZULUsSiPitaZFN4ewsNwQEdnQ98jbCH"
+  }
+}

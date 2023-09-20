@@ -1,0 +1,14 @@
+{
+  "id": "polygon",
+  "name": "Polygon",
+  "foreign_ids": {
+    "coingecko": "polygon",
+    "coinmarketcap": "polygon",
+    "binance": "polygon"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0x0c715b7ac446c896444f93b763ca8c560897a9e069e11718107ad77101f0de19",
+    "address": "0x0375b2fc7140977c9c76d45421564e354ed42277"
+  }
+}

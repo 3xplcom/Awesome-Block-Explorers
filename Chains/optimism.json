@@ -1,0 +1,14 @@
+{
+  "id": "optimism",
+  "name": "Optimism",
+  "foreign_ids": {
+    "coingecko": "optimism",
+    "coinmarketcap": "optimism-ethereum",
+    "binance": "optimism-ethereum"
+  },
+  "examples": {
+    "block": "100000000",
+    "transaction": "0x84e92efed88f61b6e901acb7e0d1e39ff69cf82e8fd266b06c42b02ce0a692d5",
+    "address": "0xb8ff877ed78ba520ece21b1de7843a8a57ca47cb"
+  }
+}

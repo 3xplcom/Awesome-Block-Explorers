@@ -1,0 +1,14 @@
+{
+  "id": "litecoin",
+  "name": "Litecoin",
+  "foreign_ids": {
+    "coingecko": "litecoin",
+    "coinmarketcap": "litecoin",
+    "binance": "litecoin"
+  },
+  "examples": {
+    "block": "2257920",
+    "transaction": "1c092b270672babb297140813d6a5b7dbb8e8173273d9e360443cd5767055f98",
+    "address": "MVSbdnUxCYTXdYjE1GSK9kwF31EZauNLAf"
+  }
+}
