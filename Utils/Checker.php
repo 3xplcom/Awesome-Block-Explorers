@@ -3,8 +3,8 @@
 /*  This is a simple script to check whether the explorers are set up correctly and respond with code 200.
  *  Tested on PHP 8.2 with php8.2-curl enabled. Distributed under the MIT software license, see LICENSE.md.  */
 
-$explorers = scandir('../Explorers');
-$chains = scandir('../Chains');
+$explorers = scandir(__DIR__ . '/../Explorers');
+$chains = scandir(__DIR__ . '/../Chains');
 $lib = [];
 $errors = [];
 
@@ -19,18 +19,18 @@ for ($i = 2, $c = count($chains); $i < $c; $i++)
 
     try
     {
-        $json = json_decode(file_get_contents('../Chains/' . $chains[$i]), associative: true, flags: JSON_THROW_ON_ERROR);
+        $json = json_decode(file_get_contents(__DIR__ . '/../Chains/' . $chains[$i]), associative: true, flags: JSON_THROW_ON_ERROR);
 
         if (!isset($json['id']))
             throw new Error('`id` is not set');
         if (!isset($json['name']))
             throw new Error('`name` is not set');
-        if (!isset($json['foreign_ids']['coingecko']))
-            throw new Error('`foreign_ids.coingecko` is not set', 1);
-        if (!isset($json['foreign_ids']['coinmarketcap']))
-            throw new Error('`foreign_ids.coinmarketcap` is not set', 1);
-        if (!isset($json['foreign_ids']['binance']))
-            throw new Error('`foreign_ids.binance` is not set', 1);
+        if (!key_exists('coingecko', $json['foreign_ids']))
+            throw new Error('`foreign_ids.coingecko` is not set');
+        if (!key_exists('coinmarketcap', $json['foreign_ids']))
+            throw new Error('`foreign_ids.coinmarketcap` is not set (can be null)');
+        if (!key_exists('binance', $json['foreign_ids']))
+            throw new Error('`foreign_ids.binance` is not set (can be null)');
         if (!isset($json['examples']['block']))
             throw new Error('`examples.block` is not set');
         if (!isset($json['examples']['transaction']))
@@ -44,13 +44,8 @@ for ($i = 2, $c = count($chains); $i < $c; $i++)
     }
     catch (Throwable $t)
     {
-        if($t->getCode() === 0) {
-            echo "❌ Error: {$t->getMessage()}\n";
-            $errors[] = $t->getMessage();
-        }
-        else {
-            echo "⚠️ Warning: {$t->getMessage()}\n";
-        }
+        echo "❌ Error: {$t->getMessage()}\n";
+        $errors[] = $t->getMessage();
     }
 }
 
@@ -65,7 +60,7 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
 
     try
     {
-        $json = json_decode(file_get_contents('../Explorers/' . $explorers[$i]), associative: true, flags: JSON_THROW_ON_ERROR);
+        $json = json_decode(file_get_contents(__DIR__ . '/../Explorers/' . $explorers[$i]), associative: true, flags: JSON_THROW_ON_ERROR);
 
         if (!isset($json['id']))
             throw new Error('`id` is not set');
@@ -146,7 +141,7 @@ echo "Checking explorers...\n";
 
 for ($i = 2, $c = count($explorers); $i < $c; $i++)
 {
-    $explorer = json_decode(file_get_contents('../Explorers/' . $explorers[$i]), true);
+    $explorer = json_decode(file_get_contents(__DIR__ . '/../Explorers/' . $explorers[$i]), true);
 
     echo "\tChecking {$explorer['name']}...\n";
 
