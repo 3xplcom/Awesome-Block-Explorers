@@ -81,6 +81,8 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
             throw new Error('`discord` is not set (can be null)');
         if (!isset($json['blockchains']))
             throw new Error('`blockchains` is not set');
+        if (!isset($json['search']))
+            throw new Error('`search` is not set');
 
         foreach ($json['blockchains'] as $id => $blockchain)
         {
@@ -94,8 +96,6 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
                 throw new Error("`transaction` is not set for {$id} (can be null)");
             if (!key_exists('address', $blockchain))
                 throw new Error("`address` is not set for {$id} (can be null)");
-            if (!key_exists('search', $blockchain))
-                throw new Error("`search` is not set for {$id} (can be null)");
             if (isset($blockchain['block']) && !str_contains($blockchain['block'], '%block%'))
                 throw new Error("`block` should contain `%block%` for {$id}");
             if (isset($blockchain['transaction']) && !str_contains($blockchain['transaction'], '%transaction%'))
