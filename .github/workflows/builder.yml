@@ -1,0 +1,60 @@
+name: builder
+run-name: Build project
+on:
+  workflow_dispatch:
+  pull_request_target:
+    types:
+      - closed
+    branches:
+      - master
+permissions:
+  contents: write
+jobs:
+  check:
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request && github.event.pull_request.merged == true)
+    runs-on: self-hosted
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+        env:
+          runner: self-hosted
+
+      - name: Run Checker
+        run: cd Utils && php Checker.php
+
+  build:
+    if: github.event_name == 'workflow_dispatch' || (github.event.pull_request && github.event.pull_request.merged == true)
+    runs-on: self-hosted
+    needs: check
+    steps:
+      - name: git checkout
+        uses: actions/checkout@v3
+
+      - name: setup php
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.2'
+          extensions: yaml
+        env:
+          runner: self-hosted
+
+      - name: run builder
+        run: |
+          php Utils/Builder.php 
+
+      - name: push built files to `dist` branch
+        run: |
+          cd build
+          git config --global user.name 'blade-runner'
+          git config --global user.email 'runner@3xpl.com'
+          git config --global init.defaultBranch 'master'
+          git init
+          git checkout -B master
+          git add -A
+          git commit -m "build"
+          git push -f https://x-access-token:${{ github.token }}@github.com/${{ github.repository }} master:dist
