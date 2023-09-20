@@ -152,13 +152,13 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
 
     foreach ($explorer['blockchains'] as $j => $chain)
     {
+        echo "\t\tChecking {$lib[$j]['name']}...\n";
+
         if (!isset($lib[$j]))
         {
             echo "\t\tThis chain is not present in the library ❌\n";
             continue;
         }
-
-        echo "\t\tChecking {$lib[$j]['name']}...\n";
 
         if (!is_null($chain['homepage']))
         {
