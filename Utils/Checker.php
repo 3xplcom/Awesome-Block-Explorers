@@ -6,6 +6,7 @@
 $explorers = scandir('../Explorers');
 $chains = scandir('../Chains');
 $lib = [];
+$errors = [];
 
 // First, we check the validity of chain JSON files
 
@@ -25,11 +26,11 @@ for ($i = 2, $c = count($chains); $i < $c; $i++)
         if (!isset($json['name']))
             throw new Error('`name` is not set');
         if (!isset($json['foreign_ids']['coingecko']))
-            throw new Error('`foreign_ids.coingecko` is not set');
+            throw new Error('`foreign_ids.coingecko` is not set', 1);
         if (!isset($json['foreign_ids']['coinmarketcap']))
-            throw new Error('`foreign_ids.coinmarketcap` is not set');
+            throw new Error('`foreign_ids.coinmarketcap` is not set', 1);
         if (!isset($json['foreign_ids']['binance']))
-            throw new Error('`foreign_ids.binance` is not set');
+            throw new Error('`foreign_ids.binance` is not set', 1);
         if (!isset($json['examples']['block']))
             throw new Error('`examples.block` is not set');
         if (!isset($json['examples']['transaction']))
@@ -43,7 +44,13 @@ for ($i = 2, $c = count($chains); $i < $c; $i++)
     }
     catch (Throwable $t)
     {
-        echo "❌ Error: {$t->getMessage()}\n";
+        if($t->getCode() === 0) {
+            echo "❌ Error: {$t->getMessage()}\n";
+            $errors[] = $t->getMessage();
+        }
+        else {
+            echo "⚠️ Warning: {$t->getMessage()}\n";
+        }
     }
 }
 
@@ -104,6 +111,7 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
     catch (Throwable $t)
     {
         echo "❌ Error: {$t->getMessage()}\n";
+        $errors[] = $t->getMessage();
     }
 }
 
@@ -176,4 +184,8 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
             check_page(str_replace('%address%', $lib[$j]['examples']['address'], $chain['address']));
         }
     }
+}
+
+if(count($errors)) {
+    exit(2);
 }
