@@ -1,0 +1,14 @@
+{
+  "id": "beacon-chain",
+  "name": "Beacon Chain",
+  "foreign_ids": {
+    "coingecko": null,
+    "coinmarketcap": null,
+    "binance": null
+  },
+  "examples": {
+    "block": "100000",
+    "transaction": "3200027",
+    "address": "296190"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "bnb",
+  "name": "BNB",
+  "foreign_ids": {
+    "coingecko": "bnb",
+    "coinmarketcap": "bnb",
+    "binance": "bnb"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0x283261ec450ece5e7c70c4afe39cd00860087824e4bb1d160bc55033bb2d0a67",
+    "address": "0xe2fc31f816a9b94326492132018c3aecc4a93ae1"
+  }
+}

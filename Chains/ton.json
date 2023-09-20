@@ -1,0 +1,14 @@
+{
+  "id": "ton",
+  "name": "The Open Network",
+  "foreign_ids": {
+    "coingecko": "toncoin",
+    "coinmarketcap": "toncoin",
+    "binance": "toncoin"
+  },
+  "examples": {
+    "block": "1",
+    "transaction": "3a175a1995d9634cfa527a1701daeb158b0aeb1e040a390ba697a6110ee1b9bf",
+    "address": "EQCSP1xhpNpQmIIYDwbMs2lZmy6ep496v3JfIy__DTH6ZqJ2"
+  }
+}

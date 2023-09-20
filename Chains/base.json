@@ -1,0 +1,14 @@
+{
+  "id": "base",
+  "name": "Base",
+  "foreign_ids": {
+    "coingecko": null,
+    "coinmarketcap": null,
+    "binance": null
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0xc43b26117cdba66750690a9252fae114de3b23989874c9502a6e5084564a2f4d",
+    "address": "0x689f6b97cc8f9668af82d8c208afa67bc78e1c9a"
+  }
+}

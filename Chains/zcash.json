@@ -1,0 +1,14 @@
+{
+  "id": "zcash",
+  "name": "Zcash",
+  "foreign_ids": {
+    "coingecko": "zcash",
+    "coinmarketcap": "zcash",
+    "binance": "zcash"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "c4eaa58879081de3c24a7b117ed2b28300e7ec4c4c1dff1d3f1268b7857a4ddb",
+    "address": "t1StbPM4X3j4FGM57HpGnb9BMbS7C1nFW1r"
+  }
+}

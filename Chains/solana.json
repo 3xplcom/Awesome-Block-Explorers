@@ -1,0 +1,14 @@
+{
+  "id": "solana",
+  "name": "Solana",
+  "foreign_ids": {
+    "coingecko": "solana",
+    "coinmarketcap": "solana",
+    "binance": "solana"
+  },
+  "examples": {
+    "block": "218705853",
+    "transaction": "4WuxY8mK4cS7WAAfgS2QPGCcEVe7aXCvA29oK23oRs4HVMkycYuCH5kTs7kXxXXDwubmBczU37WreviYSdzAiLrp",
+    "address": "8XpocjZodGQiFdoh2P33EXF1dDCJErx5nAsnz81sK4wy"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "arbitrum-one",
+  "name": "Arbitrum One",
+  "foreign_ids": {
+    "coingecko": "arbitrum",
+    "coinmarketcap": "arbitrum",
+    "binance": "arbitrum"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0x310f2679942aa0a64d05e9f936c01cb9e3713212ef28b81dd3398285cbc0ec61",
+    "address": "0x449d9bab5855d53864969defeeaf0148f7c104f2"
+  }
+}

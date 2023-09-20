@@ -1,0 +1,14 @@
+{
+  "id": "polkadot",
+  "name": "Polkadot",
+  "foreign_ids": {
+    "coingecko": "polkadot",
+    "coinmarketcap": "polkadot",
+    "binance": "polkadot"
+  },
+  "examples": {
+    "block": "15822006",
+    "transaction": "0x3b9bf931486b1e4b88cdc9aef6743482aaa2358f12a458a38a9630e462adb3f8",
+    "address": "14ghKTz5mjZPgGYvgVC9VnFw1HYZmmsnYvSSHFgFTJfMvwQS"
+  }
+}

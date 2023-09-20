@@ -1,0 +1,14 @@
+{
+  "id": "dash",
+  "name": "Dash",
+  "foreign_ids": {
+    "coingecko": "dash",
+    "coinmarketcap": "dash",
+    "binance": "dash"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7",
+    "address": "XvJwrQWJYzXE5uAxHzhwyJdQSYgeg5MvGn"
+  }
+}

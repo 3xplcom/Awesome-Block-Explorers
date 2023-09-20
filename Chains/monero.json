@@ -1,0 +1,14 @@
+{
+  "id": "monero",
+  "name": "Monero",
+  "foreign_ids": {
+    "coingecko": "monero",
+    "coinmarketcap": "monero",
+    "binance": "monero"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "c88ce9783b4f11190d7b9c17a69c1c52200f9faaee8e98dd07e6811175177139",
+    "address": "888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H"
+  }
+}

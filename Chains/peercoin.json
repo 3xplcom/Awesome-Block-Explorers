@@ -1,0 +1,14 @@
+{
+  "id": "peercoin",
+  "name": "Peercoin",
+  "foreign_ids": {
+    "coingecko": "peercoin",
+    "coinmarketcap": "peercoin",
+    "binance": "peercoin"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "4105cc503882c6852b1ce4024c730d4d1d31342aada62c0703aa603d92f75501",
+    "address": "PTNSKANTVh6mLuCbAWTmKDZeDedddcGeZZ"
+  }
+}

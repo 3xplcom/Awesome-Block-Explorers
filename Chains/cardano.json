@@ -1,0 +1,14 @@
+{
+  "id": "cardano",
+  "name": "Cardano",
+  "foreign_ids": {
+    "coingecko": "cardano",
+    "coinmarketcap": "cardano",
+    "binance": "cardano"
+  },
+  "examples": {
+    "block": "9313781",
+    "transaction": "7468c2dd40fdb2c08e2be5ad7be76600f8d83e0f80d9626fe9ba83a96119dd5f",
+    "address": "addr1vykhj0et562lk094flx8ppdrjq7dmqffkxv99l3wyjm5c3gf2hlpm"
+  }
+}

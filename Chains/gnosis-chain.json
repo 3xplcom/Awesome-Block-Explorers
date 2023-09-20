@@ -1,0 +1,14 @@
+{
+  "id": "gnosis-chain",
+  "name": "Gnosis Chain",
+  "foreign_ids": {
+    "coingecko": "xdai-ecosystem",
+    "coinmarketcap": null,
+    "binance": null
+  },
+  "examples": {
+    "block": "1",
+    "transaction": "0xd2c06cec1be379be60ee59d56e93111819e226bca920009c47ee56a1c23ddd99",
+    "address": "0xa3f08080ab9ea12fc3de1fce5c9caeff63657005"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "opbnb",
+  "name": "opBNB",
+  "foreign_ids": {
+    "coingecko": null,
+    "coinmarketcap": null,
+    "binance": null
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0x835d817ab9d8e0854416bc8711466d8f20fb2c61e457d46e28f245b6fdc39554",
+    "address": "0xa66e2cecad16d6de42f98b8224959adc6064a442"
+  }
+}
