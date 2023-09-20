@@ -5,13 +5,163 @@
   "link": "https://3xpl.com",
   "x": "https://x.com/3xplcom",
   "discord": "https://3xpl.com/discord",
+  "search": "https://3xpl.com/search?q=%search%",
   "blockchains": {
     "bitcoin": {
       "homepage": "https://3xpl.com/bitcoin",
       "block": "https://3xpl.com/bitcoin/block/%block%",
       "transaction": "https://3xpl.com/bitcoin/transaction/%transaction%",
-      "address": "https://3xpl.com/bitcoin/address/%address%",
-      "search": "https://3xpl.com/search?q=%search%"
+      "address": "https://3xpl.com/bitcoin/address/%address%"
+    },
+    "ethereum": {
+      "homepage": "https://3xpl.com/ethereum",
+      "block": "https://3xpl.com/ethereum/block/%block%",
+      "transaction": "https://3xpl.com/ethereum/transaction/%transaction%",
+      "address": "https://3xpl.com/ethereum/address/%address%"
+    },
+    "arbitrum-one": {
+      "homepage": "https://3xpl.com/arbitrum-one",
+      "block": "https://3xpl.com/arbitrum-one/block/%block%",
+      "transaction": "https://3xpl.com/arbitrum-one/transaction/%transaction%",
+      "address": "https://3xpl.com/arbitrum-one/address/%address%"
+    },
+    "base": {
+      "homepage": "https://3xpl.com/base",
+      "block": "https://3xpl.com/base/block/%block%",
+      "transaction": "https://3xpl.com/base/transaction/%transaction%",
+      "address": "https://3xpl.com/base/address/%address%"
+    },
+    "beacon-chain": {
+      "homepage": "https://3xpl.com/beacon-chain",
+      "block": "https://3xpl.com/beacon-chain/epoch/%block%",
+      "transaction": "https://3xpl.com/beacon-chain/slot/%transaction%",
+      "address": "https://3xpl.com/beacon-chain/validator/%address%"
+    },
+    "bitcoin-cash": {
+      "homepage": "https://3xpl.com/bitcoin-cash",
+      "block": "https://3xpl.com/bitcoin-cash/block/%block%",
+      "transaction": "https://3xpl.com/bitcoin-cash/transaction/%transaction%",
+      "address": "https://3xpl.com/bitcoin-cash/address/%address%"
+    },
+    "bnb": {
+      "homepage": "https://3xpl.com/bnb",
+      "block": "https://3xpl.com/bnb/block/%block%",
+      "transaction": "https://3xpl.com/bnb/transaction/%transaction%",
+      "address": "https://3xpl.com/bnb/address/%address%"
+    },
+    "cardano": {
+      "homepage": "https://3xpl.com/cardano",
+      "block": "https://3xpl.com/cardano/block/%block%",
+      "transaction": "https://3xpl.com/cardano/transaction/%transaction%",
+      "address": "https://3xpl.com/cardano/address/%address%"
+    },
+    "dash": {
+      "homepage": "https://3xpl.com/dash",
+      "block": "https://3xpl.com/dash/block/%block%",
+      "transaction": "https://3xpl.com/dash/transaction/%transaction%",
+      "address": "https://3xpl.com/dash/address/%address%"
+    },
+    "digibyte": {
+      "homepage": "https://3xpl.com/digibyte",
+      "block": "https://3xpl.com/digibyte/block/%block%",
+      "transaction": "https://3xpl.com/digibyte/transaction/%transaction%",
+      "address": "https://3xpl.com/digibyte/address/%address%"
+    },
+    "dogecoin": {
+      "homepage": "https://3xpl.com/dogecoin",
+      "block": "https://3xpl.com/dogecoin/block/%block%",
+      "transaction": "https://3xpl.com/dogecoin/transaction/%transaction%",
+      "address": "https://3xpl.com/dogecoin/address/%address%"
+    },
+    "fantom": {
+      "homepage": "https://3xpl.com/fantom",
+      "block": "https://3xpl.com/fantom/block/%block%",
+      "transaction": "https://3xpl.com/fantom/transaction/%transaction%",
+      "address": "https://3xpl.com/fantom/address/%address%"
+    },
+    "gnosis-chain": {
+      "homepage": "https://3xpl.com/gnosis-chain",
+      "block": "https://3xpl.com/gnosis-chain/block/%block%",
+      "transaction": "https://3xpl.com/gnosis-chain/transaction/%transaction%",
+      "address": "https://3xpl.com/gnosis-chain/address/%address%"
+    },
+    "handshake": {
+      "homepage": "https://3xpl.com/handshake",
+      "block": "https://3xpl.com/handshake/block/%block%",
+      "transaction": "https://3xpl.com/handshake/transaction/%transaction%",
+      "address": "https://3xpl.com/handshake/address/%address%"
+    },
+    "litecoin": {
+      "homepage": "https://3xpl.com/litecoin",
+      "block": "https://3xpl.com/litecoin/block/%block%",
+      "transaction": "https://3xpl.com/litecoin/transaction/%transaction%",
+      "address": "https://3xpl.com/litecoin/address/%address%"
+    },
+    "monero": {
+      "homepage": "https://3xpl.com/monero",
+      "block": "https://3xpl.com/monero/block/%block%",
+      "transaction": "https://3xpl.com/monero/transaction/%transaction%",
+      "address": "https://3xpl.com/monero/address/%address%"
+    },
+    "opbnb": {
+      "homepage": "https://3xpl.com/opbnb",
+      "block": "https://3xpl.com/opbnb/block/%block%",
+      "transaction": "https://3xpl.com/opbnb/transaction/%transaction%",
+      "address": "https://3xpl.com/opbnb/address/%address%"
+    },
+    "optimism": {
+      "homepage": "https://3xpl.com/optimism",
+      "block": "https://3xpl.com/optimism/block/%block%",
+      "transaction": "https://3xpl.com/optimism/transaction/%transaction%",
+      "address": "https://3xpl.com/optimism/address/%address%"
+    },
+    "peercoin": {
+      "homepage": "https://3xpl.com/peercoin",
+      "block": "https://3xpl.com/peercoin/block/%block%",
+      "transaction": "https://3xpl.com/peercoin/transaction/%transaction%",
+      "address": "https://3xpl.com/peercoin/address/%address%"
+    },
+    "polkadot": {
+      "homepage": "https://3xpl.com/polkadot",
+      "block": "https://3xpl.com/polkadot/block/%block%",
+      "transaction": "https://3xpl.com/polkadot/transaction/%transaction%",
+      "address": "https://3xpl.com/polkadot/address/%address%"
+    },
+    "polygon": {
+      "homepage": "https://3xpl.com/polygon",
+      "block": "https://3xpl.com/polygon/block/%block%",
+      "transaction": "https://3xpl.com/polygon/transaction/%transaction%",
+      "address": "https://3xpl.com/polygon/address/%address%"
+    },
+    "polygon-zkevm": {
+      "homepage": "https://3xpl.com/polygon-zkevm",
+      "block": "https://3xpl.com/polygon-zkevm/batch/%block%",
+      "transaction": "https://3xpl.com/polygon-zkevm/transaction/%transaction%",
+      "address": "https://3xpl.com/polygon-zkevm/address/%address%"
+    },
+    "solana": {
+      "homepage": "https://3xpl.com/solana",
+      "block": "https://3xpl.com/solana/slot/%block%",
+      "transaction": "https://3xpl.com/solana/transaction/%transaction%",
+      "address": "https://3xpl.com/solana/address/%address%"
+    },
+    "ton": {
+      "homepage": "https://3xpl.com/ton",
+      "block": "https://3xpl.com/ton/block/%block%",
+      "transaction": "https://3xpl.com/ton/transaction/%transaction%",
+      "address": "https://3xpl.com/ton/address/%address%"
+    },
+    "tron": {
+      "homepage": "https://3xpl.com/tron",
+      "block": "https://3xpl.com/tron/block/%block%",
+      "transaction": "https://3xpl.com/tron/transaction/%transaction%",
+      "address": "https://3xpl.com/tron/address/%address%"
+    },
+    "zcash": {
+      "homepage": "https://3xpl.com/zcash",
+      "block": "https://3xpl.com/zcash/block/%block%",
+      "transaction": "https://3xpl.com/zcash/transaction/%transaction%",
+      "address": "https://3xpl.com/zcash/address/%address%"
     }
   }
 }

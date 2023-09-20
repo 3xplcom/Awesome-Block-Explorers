@@ -5,13 +5,13 @@
   "link": "https://blockchair.com",
   "x": "https://x.com/blockchair",
   "discord": null,
+  "search": "https://blockchair.com/search?q=%search%",
   "blockchains": {
     "bitcoin": {
       "homepage": "https://blockchair.com/bitcoin",
       "block": "https://blockchair.com/bitcoin/block/%block%",
       "transaction": "https://blockchair.com/bitcoin/transaction/%transaction%",
-      "address": "https://blockchair.com/bitcoin/address/%address%",
-      "search": "https://blockchair.com/search?q=%search%"
+      "address": "https://blockchair.com/bitcoin/address/%address%"
     }
   }
 }
