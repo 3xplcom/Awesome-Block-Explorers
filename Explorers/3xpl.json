@@ -33,9 +33,9 @@
     },
     "beacon-chain": {
       "homepage": "https://3xpl.com/beacon-chain",
-      "block": "https://3xpl.com/beacon-chain/block/%block%",
-      "transaction": "https://3xpl.com/beacon-chain/transaction/%transaction%",
-      "address": "https://3xpl.com/beacon-chain/address/%address%"
+      "block": "https://3xpl.com/beacon-chain/epoch/%block%",
+      "transaction": "https://3xpl.com/beacon-chain/slot/%transaction%",
+      "address": "https://3xpl.com/beacon-chain/validator/%address%"
     },
     "bitcoin-cash": {
       "homepage": "https://3xpl.com/bitcoin-cash",
@@ -141,7 +141,7 @@
     },
     "solana": {
       "homepage": "https://3xpl.com/solana",
-      "block": "https://3xpl.com/solana/block/%block%",
+      "block": "https://3xpl.com/solana/slot/%block%",
       "transaction": "https://3xpl.com/solana/transaction/%transaction%",
       "address": "https://3xpl.com/solana/address/%address%"
     },

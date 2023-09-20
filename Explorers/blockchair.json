@@ -11,7 +11,7 @@
       "homepage": "https://blockchair.com/bitcoin",
       "block": "https://blockchair.com/bitcoin/block/%block%",
       "transaction": "https://blockchair.com/bitcoin/transaction/%transaction%",
-      "address": "https://blockchair.com/bitcoin/address/%address%",
+      "address": "https://blockchair.com/bitcoin/address/%address%"
     }
   }
 }
