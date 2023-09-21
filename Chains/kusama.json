@@ -1,0 +1,14 @@
+{
+  "id": "kusama",
+  "name": "Kusama",
+  "foreign_ids": {
+    "coingecko": "kusama",
+    "coinmarketcap": "kusama",
+    "binance": "kusama"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "0xb384cd393db4458afc3129b7c091078c8e7c38742608fed6018175027b6f03e2",
+    "address": "FRsbeFPVW9tERiU2Bdp8471NQDS4Aq6hD87n1c4JewUUKV3"
+  }
+}
