@@ -23,7 +23,7 @@ jobs:
 
       - name: Get diffs
         id: diffs
-        if: github.event.pull_request && github.event.pull_request.merged == true
+        if: github.event.pull_request
         run: |
           diff_explorers=$(git diff --name-only --diff-filter=ACMRT origin/master | grep "Explorers/" | sed "s/Explorers\///" | tr "\n" ",")
           echo "files=$diff_explorers" >> $GITHUB_OUTPUT
