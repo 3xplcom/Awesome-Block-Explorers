@@ -25,7 +25,7 @@ jobs:
         id: diffs
         if: github.event.pull_request
         run: |
-          diff_explorers=$(git diff --name-only --diff-filter=ACMRT origin/master | grep "Explorers/" | sed "s/Explorers\///" | tr "\n" ",")
+          diff_explorers=$(git diff --name-only --diff-filter=ACMRT master... | grep "Explorers/" | sed "s/Explorers\///" | tr "\n" ",")
           echo "files=$diff_explorers" >> $GITHUB_OUTPUT
 
       - name: Run Checker
