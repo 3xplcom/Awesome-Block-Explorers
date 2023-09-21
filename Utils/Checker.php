@@ -3,7 +3,18 @@
 /*  This is a simple script to check whether the explorers are set up correctly and respond with code 200.
  *  Tested on PHP 8.2 with php8.2-curl enabled. Distributed under the MIT software license, see LICENSE.md.  */
 
-$explorers = scandir(__DIR__ . '/../Explorers');
+
+$explorers = [];
+if($explorers_diffs = getopt('', ["explorers:"])) {
+    if($explorers_diffs['explorers'] ?? false) {
+        $explorers = array_filter(explode(",", $explorers_diffs['explorers']));
+    }
+}
+
+if(count($explorers) === 0) {
+    $explorers = array_slice(scandir(__DIR__ . '/../Explorers'), 2);
+}
+
 $chains = scandir(__DIR__ . '/../Chains');
 $lib = [];
 $errors = [];
@@ -139,7 +150,7 @@ function check_page($url)
 
 echo "Checking explorers...\n";
 
-for ($i = 2, $c = count($explorers); $i < $c; $i++)
+for ($i = 0, $c = count($explorers); $i < $c; $i++)
 {
     $explorer = json_decode(file_get_contents(__DIR__ . '/../Explorers/' . $explorers[$i]), true);
 

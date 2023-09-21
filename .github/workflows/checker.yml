@@ -11,6 +11,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       - name: Setup PHP
         uses: shivammathur/setup-php@v2
@@ -19,5 +21,12 @@ jobs:
         env:
           runner: ubuntu-latest
 
+      - name: Get diffs
+        id: diffs
+        if: github.event.pull_request
+        run: |
+          diff_explorers=$(git diff --name-only --diff-filter=ACMRT origin/master | grep "Explorers/" | sed "s/Explorers\///" | tr "\n" ",")
+          echo "files=$diff_explorers" >> $GITHUB_OUTPUT
+
       - name: Run Checker
-        run: cd Utils && php Checker.php
+        run: php Utils/Checker.php --explorers=${{ steps.diffs.outputs.files || '' }}
