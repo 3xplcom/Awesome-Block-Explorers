@@ -1,0 +1,14 @@
+{
+  "id": "groestlcoin",
+  "name": "Groestlcoin",
+  "foreign_ids": {
+    "coingecko": "groestlcoin",
+    "coinmarketcap": "groestlcoin",
+    "binance": "groestlcoin"
+  },
+  "examples": {
+    "block": "0",
+    "transaction": "3ce968df58f9c8a752306c4b7264afab93149dbc578bd08a42c446caaa6628bb",
+    "address": "FeBhpvNkdtxC7K3LEVT8uqskzwC4mFYrhR"
+  }
+}

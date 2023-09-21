@@ -1,0 +1,14 @@
+{
+  "id": "ripple",
+  "name": "Ripple",
+  "foreign_ids": {
+    "coingecko": "ripple",
+    "coinmarketcap": "ripple",
+    "binance": "ripple"
+  },
+  "examples": {
+    "block": "82695177",
+    "transaction": "1F56104B82618E247F230454D34F24EA30BD0E7465FC066F7FF1971B6EF6CE1F",
+    "address": "r4AZpDKVoBxVcYUJCWMcqZzyWsHTteC4ZE"
+  }
+}

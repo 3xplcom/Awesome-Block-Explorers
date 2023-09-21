@@ -12,6 +12,96 @@
       "block": "https://blockchair.com/bitcoin/block/%block%",
       "transaction": "https://blockchair.com/bitcoin/transaction/%transaction%",
       "address": "https://blockchair.com/bitcoin/address/%address%"
+    },
+    "ethereum": {
+      "homepage": "https://blockchair.com/ethereum",
+      "block": "https://blockchair.com/ethereum/block/%block%",
+      "transaction": "https://blockchair.com/ethereum/transaction/%transaction%",
+      "address": "https://blockchair.com/ethereum/address/%address%"
+    },
+    "bnb": {
+      "homepage": "https://blockchair.com/bnb",
+      "block": "https://blockchair.com/bnb/block/%block%",
+      "transaction": "https://blockchair.com/bnb/transaction/%transaction%",
+      "address": "https://blockchair.com/bnb/address/%address%"
+    },
+    "opbnb": {
+      "homepage": "https://blockchair.com/opbnb",
+      "block": "https://blockchair.com/opbnb/block/%block%",
+      "transaction": "https://blockchair.com/opbnb/transaction/%transaction%",
+      "address": "https://blockchair.com/opbnb/address/%address%"
+    },
+    "litecoin": {
+      "homepage": "https://blockchair.com/litecoin",
+      "block": "https://blockchair.com/litecoin/block/%block%",
+      "transaction": "https://blockchair.com/litecoin/transaction/%transaction%",
+      "address": "https://blockchair.com/litecoin/address/%address%"
+    },
+    "cardano": {
+      "homepage": "https://blockchair.com/cardano",
+      "block": "https://blockchair.com/cardano/block/%block%",
+      "transaction": "https://blockchair.com/cardano/transaction/%transaction%",
+      "address": "https://blockchair.com/cardano/address/%address%"
+    },
+    "ripple": {
+      "homepage": "https://blockchair.com/ripple",
+      "block": "https://blockchair.com/ripple/ledger/%block%",
+      "transaction": "https://blockchair.com/ripple/transaction/%transaction%",
+      "address": "https://blockchair.com/ripple/account/%address%"
+    },
+    "polkadot": {
+      "homepage": "https://blockchair.com/polkadot",
+      "block": "https://blockchair.com/polkadot/block/%block%",
+      "transaction": "https://blockchair.com/polkadot/transaction/%transaction%",
+      "address": "https://blockchair.com/polkadot/address/%address%"
+    },
+    "dogecoin": {
+      "homepage": "https://blockchair.com/dogecoin",
+      "block": "https://blockchair.com/dogecoin/block/%block%",
+      "transaction": "https://blockchair.com/dogecoin/transaction/%transaction%",
+      "address": "https://blockchair.com/dogecoin/address/%address%"
+    },
+    "bitcoin-cash": {
+      "homepage": "https://blockchair.com/bitcoin-cash",
+      "block": "https://blockchair.com/bitcoin-cash/block/%block%",
+      "transaction": "https://blockchair.com/bitcoin-cash/transaction/%transaction%",
+      "address": "https://blockchair.com/bitcoin-cash/address/%address%"
+    },
+    "monero": {
+      "homepage": "https://blockchair.com/monero",
+      "block": "https://blockchair.com/monero/block/%block%",
+      "transaction": "https://blockchair.com/monero/transaction/%transaction%",
+      "address": "https://blockchair.com/monero/address/%address%"
+    },
+    "kusama": {
+      "homepage": "https://blockchair.com/kusama",
+      "block": "https://blockchair.com/kusama/block/%block%",
+      "transaction": "https://blockchair.com/kusama/transaction/%transaction%",
+      "address": "https://blockchair.com/kusama/address/%address%"
+    },
+    "ecash": {
+      "homepage": "https://blockchair.com/ecash",
+      "block": "https://blockchair.com/ecash/block/%block%",
+      "transaction": "https://blockchair.com/ecash/transaction/%transaction%",
+      "address": "https://blockchair.com/ecash/address/%address%"
+    },
+    "zcash": {
+      "homepage": "https://blockchair.com/zcash",
+      "block": "https://blockchair.com/zcash/block/%block%",
+      "transaction": "https://blockchair.com/zcash/transaction/%transaction%",
+      "address": "https://blockchair.com/zcash/address/%address%"
+    },
+    "dash": {
+      "homepage": "https://blockchair.com/dash",
+      "block": "https://blockchair.com/dash/block/%block%",
+      "transaction": "https://blockchair.com/dash/transaction/%transaction%",
+      "address": "https://blockchair.com/dash/address/%address%"
+    },
+    "groestlcoin": {
+      "homepage": "https://blockchair.com/groestlcoin",
+      "block": "https://blockchair.com/groestlcoin/block/%block%",
+      "transaction": "https://blockchair.com/groestlcoin/transaction/%transaction%",
+      "address": "https://blockchair.com/groestlcoin/address/%address%"
     }
   }
 }
