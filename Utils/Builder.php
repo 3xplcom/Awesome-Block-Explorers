@@ -18,7 +18,8 @@ for ($i = 2, $c = count($blockchains); $i < $c; $i++)
     {
         $file = file_get_contents(__DIR__ . '/../Chains/'.$blockchains[$i]);
         if($file !== false) {
-            $result['blockchains'][] = json_decode($file, associative: true, flags: JSON_THROW_ON_ERROR);
+            $blockchain = json_decode($file, associative: true, flags: JSON_THROW_ON_ERROR);
+            $result['blockchains'][$blockchain['id']] = $blockchain;
         } else
         {
             throw new Error($blockchains[$i] . 'is not a file');
