@@ -3,9 +3,12 @@
 /*  This is a simple script to check whether the explorers are set up correctly and respond with code 200.
  *  Tested on PHP 8.2 with php8.2-curl enabled. Distributed under the MIT software license, see LICENSE.md.  */
 
+
 $explorers = [];
-if($explorers_diffs = $argv[1]) {
-    $explorers = array_filter(explode(",", $explorers_diffs));
+if($explorers_diffs = getopt('', ["explorers:"])) {
+    if($explorers_diffs['explorers'] ?? false) {
+        $explorers = array_filter(explode(",", $explorers_diffs['explorers']));
+    }
 }
 
 if(count($explorers) === 0) {
