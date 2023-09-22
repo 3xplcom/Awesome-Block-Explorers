@@ -1,0 +1,17 @@
+{
+  "id": "bitcoinunlimited",
+  "name": "bitcoinunlimited.info",
+  "description": "Bitcoin Cash explorer by Bitcoin Unlimited",
+  "link": "https://explorer.bitcoinunlimited.info",
+  "x": "https://x.com/bitcoinunlimit",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "bitcoin-cash": {
+      "homepage": "https://explorer.bitcoinunlimited.info",
+      "block": "https://explorer.bitcoinunlimited.info/block-height/%block%",
+      "transaction": "https://explorer.bitcoinunlimited.info/tx/%transaction%",
+      "address": "https://explorer.bitcoinunlimited.info/address/%address%"
+    }
+  }
+}
