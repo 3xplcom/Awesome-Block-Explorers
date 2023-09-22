@@ -5,7 +5,7 @@
   "link": "https://tronscan.org",
   "x": "https://twitter.com/TRONSCAN_ORG",
   "discord": "https://discord.gg/AgJGCubZWE",
-  "search": null,
+  "search": "https://tronscan.org/#/searchResult/%search%",
   "blockchains": {
     "tron": {
       "homepage": "https://tronscan.org",
