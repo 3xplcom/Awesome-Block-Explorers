@@ -87,8 +87,8 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
             throw new Error('`discord` is not set (can be null)');
         if (!isset($json['blockchains']))
             throw new Error('`blockchains` is not set');
-        if (!isset($json['search']))
-            throw new Error('`search` is not set');
+        if (!key_exists('search', $json))
+            throw new Error('`search` is not set (can be null)');
 
         foreach ($json['blockchains'] as $id => $blockchain)
         {
