@@ -1,0 +1,17 @@
+{
+  "id": "tronscan",
+  "name": "TRONSCAN",
+  "description": "The first blockchain browser in the TRON community",
+  "link": "https://tronscan.org",
+  "x": "https://twitter.com/TRONSCAN_ORG",
+  "discord": "https://discord.gg/AgJGCubZWE",
+  "search": null,
+  "blockchains": {
+    "tron": {
+      "homepage": "https://tronscan.org",
+      "block": "https://tronscan.org/#/block/%block%",
+      "transaction": "https://tronscan.org/#/transaction/%transaction%",
+      "address": "https://tronscan.org/#/address/%address%"
+    }
+  }
+}
