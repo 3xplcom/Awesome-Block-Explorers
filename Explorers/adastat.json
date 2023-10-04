@@ -1,0 +1,17 @@
+{
+  "id": "adastat",
+  "name": "adastat.net",
+  "description": "AdaStat",
+  "link": "https://adastat.net",
+  "x": "https://x.com/ada_stat",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "cardano": {
+      "homepage": "https://adastat.net/",
+      "block": "https://adastat.net/blocks/%block%",
+      "transaction": "https://adastat.net/transactions/%transaction%",
+      "address": "https://adastat.net/addresses/%address%"
+    }
+  }
+}

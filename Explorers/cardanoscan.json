@@ -1,0 +1,17 @@
+{
+  "id": "cardanoscan",
+  "name": "cardanoscan.io",
+  "description": "Cardanoscan",
+  "link": "https://cardanoscan.io/",
+  "x": "https://x.com/cardanoscanio",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "cardano": {
+      "homepage": "https://cardanoscan.io/",
+      "block": "https://cardanoscan.io/block/%block%",
+      "transaction": "https://cardanoscan.io/transaction/%transaction%",
+      "address": "https://cardanoscan.io/address/%address%"
+    }
+  }
+}
