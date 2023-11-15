@@ -8,7 +8,7 @@
   "search": null,
   "blockchains": {
     "ethereum": {
-      "homepage": "https://blockchair.com/ethereum",
+      "homepage": "https://eth.blockscout.com",
       "block": "https://eth.blockscout.com/block/%block%",
       "transaction": "https://eth.blockscout.com/tx/%transaction%",
       "address": "https://eth.blockscout.com/address/%address%",
