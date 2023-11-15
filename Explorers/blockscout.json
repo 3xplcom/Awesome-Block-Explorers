@@ -1,0 +1,18 @@
+{
+  "id": "blockscout",
+  "name": "blockscout.com",
+  "description": "Blockscout is optimized for next-level blockchain exploration. Multi-chain, highly configurable, and open-source, the explorer portal opens up access to all chain data and functionality.",
+  "link": "https://blockscout.com",
+  "x": "https://x.com/blockscoutcom",
+  "discord": "https://discord.gg/blockscout",
+  "search": null,
+  "blockchains": {
+    "ethereum": {
+      "homepage": "https://eth.blockscout.com",
+      "block": "https://eth.blockscout.com/block/%block%",
+      "transaction": "https://eth.blockscout.com/tx/%transaction%",
+      "address": "https://eth.blockscout.com/address/%address%",
+      "search": "https://eth.blockscout.com/search-results?q=%search%"
+    }
+  }
+}
