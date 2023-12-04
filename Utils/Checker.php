@@ -94,8 +94,8 @@ for ($i = 2, $c = count($explorers); $i < $c; $i++)
         {
             if (!isset($lib[$id]))
                 throw new Error("`{$id}` is not a known chain");
-            if (!isset($blockchain['homepage']))
-                throw new Error("`homepage` is not set for {$id}");
+            if (!key_exists('homepage', $blockchain))
+                throw new Error("`homepage` is not set for {$id} (can be null)");
             if (!key_exists('block', $blockchain))
                 throw new Error("`block` is not set for {$id} (can be null)");
             if (!key_exists('transaction', $blockchain))
