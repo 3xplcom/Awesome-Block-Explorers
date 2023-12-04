@@ -1,0 +1,18 @@
+{
+  "id": "oraclus",
+  "name": "oraclus.com",
+  "description": "Crypto Market Data Scanner and Analytics",
+  "link": "https://oraclus.com",
+  "x": "https://twitter.com/oraclus_com",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "ethereum": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/ethereum/%transaction%",
+      "address": "https://oraclus.com/search/ethereum/address/%address%",
+      "search": null
+    }
+  }
+}
