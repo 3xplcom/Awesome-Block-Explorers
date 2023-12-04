@@ -1,17 +1,73 @@
 {
   "id": "oraclus",
   "name": "oraclus.com",
-  "description": "Crypto Market Data Scanner and Analytics",
+  "description": "Crypto market data scanner and analytics",
   "link": "https://oraclus.com",
   "x": "https://twitter.com/oraclus_com",
   "discord": null,
   "search": null,
   "blockchains": {
+    "bitcoin": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/bitcoin/%transaction%",
+      "address": "https://oraclus.com/search/bitcoin/address/%address%",
+      "search": null
+    },
     "ethereum": {
       "homepage": null,
       "block": null,
       "transaction": "https://oraclus.com/transaction/ethereum/%transaction%",
       "address": "https://oraclus.com/search/ethereum/address/%address%",
+      "search": null
+    },
+    "bitcoin-cash": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/bitcoin-cash/%transaction%",
+      "address": "https://oraclus.com/search/bitcoin-cash/address/%address%",
+      "search": null
+    },
+    "bnb": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/bnb/%transaction%",
+      "address": "https://oraclus.com/search/bnb/address/%address%",
+      "search": null
+    },
+    "cardano": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/cardano/%transaction%",
+      "address": "https://oraclus.com/search/cardano/address/%address%",
+      "search": null
+    },
+    "dash": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/dash/%transaction%",
+      "address": "https://oraclus.com/search/dash/address/%address%",
+      "search": null
+    },
+    "dogecoin": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/dogecoin/%transaction%",
+      "address": "https://oraclus.com/search/dogecoin/address/%address%",
+      "search": null
+    },
+    "litecoin": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/litecoin/%transaction%",
+      "address": "https://oraclus.com/search/litecoin/address/%address%",
+      "search": null
+    },
+    "zcash": {
+      "homepage": null,
+      "block": null,
+      "transaction": "https://oraclus.com/transaction/zcash/%transaction%",
+      "address": "https://oraclus.com/search/zcash/address/%address%",
       "search": null
     }
   }
