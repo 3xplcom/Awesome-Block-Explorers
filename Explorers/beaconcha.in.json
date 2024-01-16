@@ -1,0 +1,17 @@
+{
+  "id": "beaconcha.in",
+  "name": "beaconcha.in",
+  "description": "Fastest adless universal block explorer",
+  "link": "https://beaconcha.in",
+  "x": "https://x.com/beaconcha_in",
+  "discord": "https://dsc.gg/beaconchain",
+  "search": "https://beaconcha.in/search",
+  "blockchains": {
+    "beacon-chain": {
+      "homepage": "https://beaconcha.in/",
+      "block": "https://beaconcha.in/epoch/%block%",
+      "transaction": "https://beaconcha.in/slot/%transaction%",
+      "address": "https://beaconcha.in/validator/%address%"
+    }
+  }
+}
