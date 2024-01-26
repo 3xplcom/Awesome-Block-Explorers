@@ -8,7 +8,7 @@
   "search": "https://beaconcha.in/search",
   "blockchains": {
     "beacon-chain": {
-      "homepage": "https://beaconcha.in/",
+      "homepage": "https://beaconcha.in",
       "block": "https://beaconcha.in/epoch/%block%",
       "transaction": "https://beaconcha.in/slot/%transaction%",
       "address": "https://beaconcha.in/validator/%address%"
