@@ -1,0 +1,18 @@
+{
+  "id": "chain",
+  "name": "chain.so",
+  "description": "chain.so",
+  "link": "https://chain.so",
+  "x": null,
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "dogecoin": {
+      "homepage": "https://chain.so/DOGE",
+      "search": "https://chain.so/resolver/DOGE/?query=%search%",
+      "block": "https://chain.so/block/DOGE/%block%",
+      "transaction": "https://chain.so/tx/DOGE/%transaction%",
+      "address": "https://chain.so/address/DOGE/%address%"
+    }
+  }
+}

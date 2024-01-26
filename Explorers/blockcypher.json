@@ -1,0 +1,17 @@
+{
+  "id": "blockcypher",
+  "name": "blockcypher.com",
+  "description": "blockcypher.com",
+  "link": "https://www.blockcypher.com",
+  "x": null,
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "dogecoin": {
+      "homepage": "https://live.blockcypher.com/doge",
+      "block": "https://live.blockcypher.com/doge/block/%block%",
+      "transaction": "https://live.blockcypher.com/doge/tx/%transaction%",
+      "address": "https://live.blockcypher.com/doge/address/%address%"
+    }
+  }
+}
