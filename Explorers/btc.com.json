@@ -1,0 +1,41 @@
+{
+  "id": "btc.com",
+  "name": "btc.com",
+  "description": "BTC.com explorer provides an easy to search block, transaction, address, and insights blockchain data stats.",
+  "link": "https://explorer.btc.com",
+  "x": "https://x.com/btccom_official",
+  "discord": "https://discord.com/invite/R8HzUvg2eR",
+  "search": "https://explorer.btc.com/btc/search/%search%",
+  "blockchains": {
+    "bitcoin": {
+      "homepage": "https://explorer.btc.com/btc",
+      "block": "https://explorer.btc.com/btc/block/%block%",
+      "transaction": "https://explorer.btc.com/btc/transaction/%transaction%",
+      "address": "https://explorer.btc.com/btc/address/%address%"
+    },
+    "bitcoin-cash": {
+      "homepage": "https://explorer.btc.com/bch",
+      "block": "https://explorer.btc.com/bch/block/%block%",
+      "transaction": "https://explorer.btc.com/bch/transaction/%transaction%",
+      "address": "https://explorer.btc.com/bch/address/%address%"
+    },
+    "ethereum": {
+      "homepage": "https://explorer.btc.com/eth",
+      "block": "https://explorer.btc.com/eth/block/%block%",
+      "transaction": "https://explorer.btc.com/eth/transaction/%transaction%",
+      "address": "https://explorer.btc.com/eth/address/%address%"
+    },
+    "ethereum-classic": {
+      "homepage": "https://explorer.btc.com/etc",
+      "block": "https://explorer.btc.com/etc/block/%block%",
+      "transaction": "https://explorer.btc.com/etc/transaction/%transaction%",
+      "address": "https://explorer.btc.com/etc/address/%address%"
+    },
+    "litecoin": {
+      "homepage": "https://explorer.btc.com/ltc",
+      "block": "https://explorer.btc.com/ltc/block/%block%",
+      "transaction": "https://explorer.btc.com/ltc/transaction/%transaction%",
+      "address": "https://explorer.btc.com/ltc/address/%address%"
+    }
+  }
+}
