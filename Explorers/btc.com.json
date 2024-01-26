@@ -5,7 +5,7 @@
   "link": "https://explorer.btc.com",
   "x": "https://x.com/btccom_official",
   "discord": "https://discord.com/invite/R8HzUvg2eR",
-  "search": "https://explorer.btc.com/btc/search/%search%",
+  "search": "https://explorer.btc.com/search/%search%",
   "blockchains": {
     "bitcoin": {
       "homepage": "https://explorer.btc.com/btc",
