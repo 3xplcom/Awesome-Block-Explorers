@@ -1,0 +1,14 @@
+{
+  "id": "xrp-ledger",
+  "name": "XRP Ledger",
+  "foreign_ids": {
+    "coingecko": "xrp",
+    "coinmarketcap": "xrp",
+    "binance": "xrp"
+  },
+  "examples": {
+    "block": "85262358",
+    "transaction": "002216cfa7896406c59d4bae7c193a57681632f7aa5dd02988803f38ef772ff0",
+    "address": "r3EmDxejUHvG6gASt66SD4fV5XGeXkWh2q"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "ethereum-classic",
+  "name": "Ethereum Classic",
+  "foreign_ids": {
+    "coingecko": "ethereum-classic",
+    "coinmarketcap": "ethereum-classic",
+    "binance": "ethereum-classic"
+  },
+  "examples": {
+    "block": "1189232",
+    "transaction": "0x9bf03714b6f16406f69732cb366a26cf21e9d524027a5640b8682e1872412522",
+    "address": "0x1a6e4028b1410942d851795cfe96ab586038d27d"
+  }
+}

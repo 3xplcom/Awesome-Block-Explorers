@@ -1,0 +1,17 @@
+{
+  "id": "binplorer",
+  "name": "binplorer.com",
+  "description": "BNB Chain (BEP-20) explorer",
+  "link": "https://binplorer.com",
+  "x": "https://x.com/binplorer",
+  "discord": null,
+  "search": "https://binplorer.com/search/%search%",
+  "blockchains": {
+    "bnb": {
+      "homepage": "https://binplorer.com",
+      "block": null,
+      "transaction": "https://binplorer.com/tx/%transaction%",
+      "address": "https://binplorer.com/address/%address%"
+    }
+  }
+}

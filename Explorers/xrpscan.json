@@ -1,0 +1,17 @@
+{
+  "id": "xrpscan",
+  "name": "xrpscan.com",
+  "description": "Explore XRP Ledger, accounts, addresses, balances, transactions, validators, nodes, amendments, metrics and charts.",
+  "link": "https://xrpscan.com",
+  "x": "https://x.com/xrpscan",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "xrp-ledger": {
+      "homepage": "https://xrpscan.com",
+      "block": "https://xrpscan.com/ledger/%block%",
+      "transaction": "https://xrpscan.com/tx/%transaction%",
+      "address": "https://xrpscan.com/account/%address%"
+    }
+  }
+}

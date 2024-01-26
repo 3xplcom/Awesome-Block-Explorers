@@ -1,0 +1,17 @@
+{
+  "id": "bscscan",
+  "name": "bscscan.com",
+  "description": "BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on BNB Smart Chain",
+  "link": "https://bscscan.com",
+  "x": "https://twitter.com/bscscan",
+  "discord": null,
+  "search": "https://bscscan.com/search?q=%search%",
+  "blockchains": {
+    "bnb": {
+      "homepage": "https://bscscan.com",
+      "block": "https://bscscan.com/block/%block%",
+      "transaction": "https://bscscan.com/tx/%transaction%",
+      "address": "https://bscscan.com/address/%address%"
+    }
+  }
+}

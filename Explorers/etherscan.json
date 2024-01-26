@@ -1,0 +1,17 @@
+{
+  "id": "etherscan",
+  "name": "etherscan.io",
+  "description": "Etherscan allows you to explore and search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities taking place on Ethereum (ETH)",
+  "link": "https://etherscan.io",
+  "x": "https://x.com/etherscan",
+  "discord": null,
+  "search": "https://etherscan.io/search?q=%search%",
+  "blockchains": {
+    "ethereum": {
+      "homepage": "https://etherscan.io",
+      "block": "https://etherscan.io/block/%block%",
+      "transaction": "https://etherscan.io/tx/%transaction%",
+      "address": "https://etherscan.io/address/%address%"
+    }
+  }
+}

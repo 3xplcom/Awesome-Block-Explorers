@@ -1,0 +1,17 @@
+{
+  "id": "dogechain",
+  "name": "dogechain.info",
+  "description": "Dogechain helps you search the Dogecoin network for addresses, transactions, blocks. Includes a free Dogecoin wallet and developer API.",
+  "link": "https://dogechain.info",
+  "x": null,
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "dogecoin": {
+      "homepage": "https://dogechain.info",
+      "block": "https://dogechain.info/block/%block%",
+      "transaction": "https://dogechain.info/tx/%transaction%",
+      "address": "https://dogechain.info/address/%address%"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "subscan",
+  "name": "subscan.io",
+  "description": "Aggregate Substrate ecological network high-precision Web3 explorer",
+  "link": "https://www.subscan.io",
+  "x": "https://twitter.com/subscan_io",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "polkadot": {
+    	"homepage": "https://polkadot.subscan.io",
+      	"block": "https://polkadot.subscan.io/block/%block%",
+       	"transaction": "https://polkadot.subscan.io/extrinsic/%transaction%",
+        "address": "https://polkadot.subscan.io/account/%address%"
+    },
+    "moonbeam": {
+   		"homepage": "https://moonbeam.subscan.io",
+    	"block": "https://moonbeam.subscan.io/block/%block%",
+    	"transaction": "https://moonbeam.subscan.io/extrinsic/%transaction%",
+    	"address": "https://moonbeam.subscan.io/account/%address%"
+    }
+  }
+}

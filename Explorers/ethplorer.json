@@ -1,0 +1,17 @@
+{
+  "id": "ethplorer",
+  "name": "ethplorer.io",
+  "description": "Ethereum explorer",
+  "link": "https://ethplorer.io",
+  "x": "https://x.com/ethplorer",
+  "discord": null,
+  "search": "https://ethplorer.io/search/%search%",
+  "blockchains": {
+    "ethereum": {
+      "homepage": "https://ethplorer.io",
+      "block": null,
+      "transaction": "https://ethplorer.io/tx/%transaction%",
+      "address": "https://ethplorer.io/address/%address%"
+    }
+  }
+}

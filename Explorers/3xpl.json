@@ -103,6 +103,12 @@
       "transaction": "https://3xpl.com/monero/transaction/%transaction%",
       "address": "https://3xpl.com/monero/address/%address%"
     },
+    "moonbeam": {
+      "homepage": "https://3xpl.com/moonbeam",
+      "block": "https://3xpl.com/moonbeam/block/%block%",
+      "transaction": "https://3xpl.com/moonbeam/transaction/%transaction%",
+      "address": "https://3xpl.com/moonbeam/address/%address%"
+    },
     "opbnb": {
       "homepage": "https://3xpl.com/opbnb",
       "block": "https://3xpl.com/opbnb/block/%block%",

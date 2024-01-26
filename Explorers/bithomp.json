@@ -1,0 +1,17 @@
+{
+  "id": "bithomp",
+  "name": "bithomp.com",
+  "description": "Scan the XRP Ledger",
+  "link": "https://bithomp.com",
+  "x": "https://x.com/bithomp",
+  "discord": "https://discord.gg/ZahGJ29WEs",
+  "search": "https://bithomp.com/explorer/%search%",
+  "blockchains": {
+    "xrp-ledger": {
+      "homepage": "https://bithomp.com",
+      "block": "https://bithomp.com/ledger/%block%",
+      "transaction": "https://bithomp.com/explorer/%transaction%",
+      "address": "https://bithomp.com/explorer/%address%"
+    }
+  }
+}

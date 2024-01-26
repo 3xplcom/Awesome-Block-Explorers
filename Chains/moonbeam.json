@@ -1,0 +1,14 @@
+{
+  "id": "moonbeam",
+  "name": "Moonbeam",
+  "foreign_ids": {
+    "coingecko": "moonbeam",
+    "coinmarketcap": "moonbeam",
+    "binance": "moonbeam"
+  },
+  "examples": {
+    "block": "5310000",
+    "transaction": "0xb287e79f585405cbd09fb53fa2eaa9bdd5dad431347beea64a64197a5a21dc0c",
+    "address": "0x229a93039d528b1b6c5357ec9f3f3fd86f71bd14"
+  }
+}
