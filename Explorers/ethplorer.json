@@ -8,7 +8,7 @@
   "search": "https://ethplorer.io/search/%search%",
   "blockchains": {
     "ethereum": {
-      "homepage": "https://etherscan.io",
+      "homepage": "https://ethplorer.io",
       "block": null,
       "transaction": "https://ethplorer.io/tx/%transaction%",
       "address": "https://ethplorer.io/address/%address%"
