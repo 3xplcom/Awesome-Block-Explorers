@@ -12,6 +12,6 @@
       "block": "https://xrpscan.com/ledger/%block%",
       "transaction": "https://xrpscan.com/tx/%transaction%",
       "address": "https://xrpscan.com/account/%address%"
-    },
+    }
   }
 }
