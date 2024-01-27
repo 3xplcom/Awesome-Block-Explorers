@@ -12,6 +12,13 @@
       "block": "https://etherscan.io/block/%block%",
       "transaction": "https://etherscan.io/tx/%transaction%",
       "address": "https://etherscan.io/address/%address%"
+    },
+    "optimism": {
+      "homepage": "https://optimistic.etherscan.io",
+      "search": "https://optimistic.etherscan.io/search?q=%search%",
+      "block": "https://optimistic.etherscan.io/block/%block%",
+      "transaction": "https://optimistic.etherscan.io/tx/%transaction%",
+      "address": "https://optimistic.etherscan.io/address/%address%"
     }
   }
 }
