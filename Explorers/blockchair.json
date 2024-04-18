@@ -102,6 +102,96 @@
       "block": "https://blockchair.com/groestlcoin/block/%block%",
       "transaction": "https://blockchair.com/groestlcoin/transaction/%transaction%",
       "address": "https://blockchair.com/groestlcoin/address/%address%"
+    },
+    "arbitrum-one": {
+      "homepage": "https://blockchair.com/arbitrum-one",
+      "block": "https://blockchair.com/arbitrum-one/block/%block%",
+      "transaction": "https://blockchair.com/arbitrum-one/transaction/%transaction%",
+      "address": "https://blockchair.com/arbitrum-one/address/%address%"
+    },
+    "base": {
+      "homepage": "https://blockchair.com/base",
+      "block": "https://blockchair.com/base/block/%block%",
+      "transaction": "https://blockchair.com/base/transaction/%transaction%",
+      "address": "https://blockchair.com/base/address/%address%"
+    },
+    "beacon-chain": {
+      "homepage": "https://blockchair.com/beacon-chain",
+      "block": "https://blockchair.com/beacon-chain/epoch/%block%",
+      "transaction": "https://blockchair.com/beacon-chain/slot/%transaction%",
+      "address": "https://blockchair.com/beacon-chain/validator/%address%"
+    },
+    "digibyte": {
+      "homepage": "https://blockchair.com/digibyte",
+      "block": "https://blockchair.com/digibyte/block/%block%",
+      "transaction": "https://blockchair.com/digibyte/transaction/%transaction%",
+      "address": "https://blockchair.com/digibyte/address/%address%"
+    },
+    "fantom": {
+      "homepage": "https://blockchair.com/fantom",
+      "block": "https://blockchair.com/fantom/block/%block%",
+      "transaction": "https://blockchair.com/fantom/transaction/%transaction%",
+      "address": "https://blockchair.com/fantom/address/%address%"
+    },
+    "gnosis-chain": {
+      "homepage": "https://blockchair.com/gnosis-chain",
+      "block": "https://blockchair.com/gnosis-chain/block/%block%",
+      "transaction": "https://blockchair.com/gnosis-chain/transaction/%transaction%",
+      "address": "https://blockchair.com/gnosis-chain/address/%address%"
+    },
+    "handshake": {
+      "homepage": "https://blockchair.com/handshake",
+      "block": "https://blockchair.com/handshake/block/%block%",
+      "transaction": "https://blockchair.com/handshake/transaction/%transaction%",
+      "address": "https://blockchair.com/handshake/address/%address%"
+    },
+    "moonbeam": {
+      "homepage": "https://blockchair.com/moonbeam",
+      "block": "https://blockchair.com/moonbeam/block/%block%",
+      "transaction": "https://blockchair.com/moonbeam/transaction/%transaction%",
+      "address": "https://blockchair.com/moonbeam/address/%address%"
+    },
+    "optimism": {
+      "homepage": "https://blockchair.com/optimism",
+      "block": "https://blockchair.com/optimism/block/%block%",
+      "transaction": "https://blockchair.com/optimism/transaction/%transaction%",
+      "address": "https://blockchair.com/optimism/address/%address%"
+    },
+    "peercoin": {
+      "homepage": "https://blockchair.com/peercoin",
+      "block": "https://blockchair.com/peercoin/block/%block%",
+      "transaction": "https://blockchair.com/peercoin/transaction/%transaction%",
+      "address": "https://blockchair.com/peercoin/address/%address%"
+    },
+    "polygon": {
+      "homepage": "https://blockchair.com/polygon",
+      "block": "https://blockchair.com/polygon/block/%block%",
+      "transaction": "https://blockchair.com/polygon/transaction/%transaction%",
+      "address": "https://blockchair.com/polygon/address/%address%"
+    },
+    "polygon-zkevm": {
+      "homepage": "https://blockchair.com/polygon-zkevm",
+      "block": "https://blockchair.com/polygon-zkevm/batch/%block%",
+      "transaction": "https://blockchair.com/polygon-zkevm/transaction/%transaction%",
+      "address": "https://blockchair.com/polygon-zkevm/address/%address%"
+    },
+    "solana": {
+      "homepage": "https://blockchair.com/solana",
+      "block": "https://blockchair.com/solana/slot/%block%",
+      "transaction": "https://blockchair.com/solana/transaction/%transaction%",
+      "address": "https://blockchair.com/solana/address/%address%"
+    },
+    "ton": {
+      "homepage": "https://blockchair.com/ton",
+      "block": "https://blockchair.com/ton/block/%block%",
+      "transaction": "https://blockchair.com/ton/transaction/%transaction%",
+      "address": "https://blockchair.com/ton/address/%address%"
+    },
+    "tron": {
+      "homepage": "https://blockchair.com/tron",
+      "block": "https://blockchair.com/tron/block/%block%",
+      "transaction": "https://blockchair.com/tron/transaction/%transaction%",
+      "address": "https://blockchair.com/tron/address/%address%"
     }
   }
 }
