@@ -4,6 +4,8 @@
   "description": "A global cryptocurency mining pool",
   "link": "https://viabtc.com",
   "x": "https://twitter.com/ViaBTC",
+  "discord": null,
+  "search": null,
   "blockchains": {
     "bitcoin": {
       "homepage": "https://explorer.viabtc.com/btc",
