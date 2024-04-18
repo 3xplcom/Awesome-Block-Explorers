@@ -1,0 +1,41 @@
+{
+  "id": "viabtc",
+  "name": "viabtc.com",
+  "description": "A global cryptocurency mining pool",
+  "link": "https://viabtc.com",
+  "x": "https://twitter.com/ViaBTC",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "bitcoin": {
+      "homepage": "https://explorer.viabtc.com/btc",
+      "block": "https://explorer.viabtc.com/btc/block/%block%",
+      "transaction": "https://explorer.viabtc.com/btc/tx/%transaction%",
+      "address": "https://explorer.viabtc.com/btc/address/%address%"
+    },
+    "bitcoin-cash": {
+      "homepage": "https://explorer.viabtc.com/bch",
+      "block": "https://explorer.viabtc.com/bch/block/%block%",
+      "transaction": "https://explorer.viabtc.com/bch/tx/%transaction%",
+      "address": "https://explorer.viabtc.com/bch/address/%address%"
+    },
+    "dogecoin": {
+      "homepage": "https://explorer.viabtc.com/doge",
+      "block": "https://explorer.viabtc.com/doge/block/%block%",
+      "transaction": "https://explorer.viabtc.com/doge/tx/%transaction%",
+      "address": "https://explorer.viabtc.com/doge/address/%address%"
+    },
+    "ecash": {
+      "homepage": "https://explorer.viabtc.com/xec",
+      "block": "https://explorer.viabtc.com/xec/block/%block%",
+      "transaction": "https://explorer.viabtc.com/xec/tx/%transaction%",
+      "address": "https://explorer.viabtc.com/xec/address/%address%"
+    },
+    "litecoin": {
+      "homepage": "https://explorer.viabtc.com/ltc",
+      "block": "https://explorer.viabtc.com/ltc/block/%block%",
+      "transaction": "https://explorer.viabtc.com/ltc/tx/%transaction%",
+      "address": "https://explorer.viabtc.com/ltc/address/%address%"
+    }
+  }
+}
