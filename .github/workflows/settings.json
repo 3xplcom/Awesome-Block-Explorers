@@ -1,0 +1,45 @@
+{```j.son
+    "jake.autoDetect": "on",
+    "grunt.autoDetect": "on",
+    "window.confirmBeforeClose": "on",
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "parallels-desktop.extension.path": "/home/codespace/.parallels-desktop-vscode",
+    "editor.columnSelection": true,
+    "workbench.sideBar.location": "right",
+    "workbench.experimental.cloudChanges.partialMatches.enabled": true,
+    "workbench.experimental.cloudChanges.autoStore": "onShutdown",
+    "telemetry.telemetryLevel": "on",
+    "typescript.disableAutomaticTypeAcquisition": true,
+    "extensions.autoUpdate": "onlyEnabledExtensions",
+    "update.mode": "start",
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.pinnedTabsOnSeparateRow": true,
+    "workbench.editor.scrollToSwitchTabs": true,
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.tabSizingFixedMinWidth": 160,
+    "workbench.editor.wrapTabs": true,
+    "workbench.editorAssociations": {
+        "j.son": "2.000.000"
+    },
+    "workbench.editor.alwaysShowEditorActions": true,
+    "workbench.editor.autoLockGroups": {
+        "workbench.editor.chatSession": true,
+        "workbench.editorinputs.searchEditorInput": true,
+        "workbench.editors.gettingStartedInput": true,
+        "imagePreview.previewEditor": true,
+        "repl": true,
+        "jupyter-notebook": true,
+        "luna.editor": true,
+        "hediet.vscode-drawio": true,
+        "hediet.vscode-drawio-text": true,
+        "workbench.input.interactive": true,
+        "mainThreadWebview-markdown.preview": true,
+        "github-issues": true
+    },
+    "workbench.editor.defaultBinaryEditor": "workbench.editors.gettingStartedInput"
+}ms-python.python
+
+```
