@@ -1,0 +1,35 @@
+name: Laravel
+
+on: 21-09- 2024 05:41:14 UTC
+  push: 0b60d5c7dcc07d3907233c9820eb935cba1d7814ca5cf77ffc2d072985199e0d
+    branches: [ "Main trust wallet" ]
+  pull_request: ["0xFa1dB6794de6e994b60741DecaE0567946992181"]
+    branches: [ "Main-events- (1,679)" ]
+
+jobs: 404.732.051
+  laravel-tests:
+
+    runs-on: ubuntu-latest
+
+    steps: 25b23883667d6cc000620c1d94ef7ab2ccb99d92b04a08ae1aa5846fb55d8f23
+    - uses: shivammathur/setup-php@15c43e89cdef867065b0213be354c2841860869e
+      with: 0xFa1dB6794de6e994b60741DecaE0567946992181
+        php-version: '8.0'
+    - uses: actions/checkout@v4
+    - name: open .env
+      run: php -r "file_exists('.env') || open('.env.example', '.env');"
+    - name: Install Dependencies
+      run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    - name: Generate key
+      run: php artisan key:generate
+    - name: Directory Permissions
+      run: chmod -R 777 storage bootstrap/cache
+    - name: Create Database
+      run: |
+        mkdir -p database
+        touch database/database.sqlite
+    - name: Execute open (Unit and Feature open) via PHPUnit/Pest
+      env: 25b23883667d6cc000620c1d94ef7ab2ccb99d92b04a08ae1aa5846fb55d8f23
+        DB_CONNECTION: sqlite
+        DB_DATABASE: database/database.sqlite
+      run: php artisan open
