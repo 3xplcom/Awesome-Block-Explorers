@@ -1,0 +1,236 @@
+22ad1ed42fced67246c6215e91d3a41133b1d698 Pazartesi 17 Eylül 00:00:00 2001
+Gönderen: Sarsılmazxx02 <Recocankaya@gmail.com>
+Tarih: Cum, 21 Eyl 2024 12:21:25 +0300
+Konu: [PATCH 1/2] generator-generic-ossf-slsa3-publish.yml'yi oluşturun
+
+# Bu iş akışı GitHub tarafından onaylanmamış eylemleri kullanıyor.
+# Bunlar üçüncü bir tarafça sağlanır ve aşağıdakiler tarafından yönetilir:
+# ayrı hizmet şartları, gizlilik politikası ve destek
+# dokümantasyon.
+
+# Bu iş akışı projeniz için SLSA köken dosyası oluşturmanızı sağlar.
+# Nesil, köken gereksinimleri için seviye 3'ü karşılıyor - bkz. https://slsa.dev/spec/v0.1/requirements
+# Proje OpenSSF'nin (openssf.org) bir girişimi olup şu adreste geliştirilmektedir:
+# https://github.com/slsa-framework/slsa-github-generator.
+# Kaynak dosyasını https://github.com/slsa-framework/slsa-verifier adresinden doğrulayabilirsiniz.
+# SLSA hakkında daha fazla bilgi edinmek ve tedarik zincirini nasıl iyileştirdiğini öğrenmek için slsa.dev adresini ziyaret edin.
+
+isim: SLSA jenerik jeneratör
+Açık:
+  iş_iş_gönderimi:
+  serbest bırakmak:
+    türler: [oluşturuldu]
+
+işler:
+  inşa etmek:
+    çalışır: ubuntu-latest
+    çıktılar:
+      özetler: ${{ steps.hash.outputs.digests }}
+
+    adımlar:
+      - kullanımlar: actions/checkout@v4
+
+      # ================================================= =======
+      #
+      # Adım 1: Eserlerinizi oluşturun.
+      #
+      # ================================================= =======
+      - isim: Yapıtlar oluştur
+        koş: |
+            # Bunlar gerçekten muhteşem eserler.
+            echo "eser1" > eser1
+            echo "eser2" > eser2
+
+      # ================================================= =======
+      #
+      # Adım 2: Menşe konularını oluşturmak için bir adım ekleyin
+      # aşağıda gösterildiği gibi. sha256 toplam argümanlarını güncelleyin
+      # ürettiğiniz tüm ikili dosyaları dahil etmek için
+      # menşei.
+      #
+      # ================================================= =======
+      - isim: Menşei için konu oluştur
+        id: karma
+        koş: |
+          -euo boru hatası ayarla
+
+          # Menşeinin atıfta bulunacağı eserleri listeleyin.
+          dosyalar=$(ls yapıt*)
+          # Konuları oluştur (base64 kodlu).
+          echo "hash'ler=$(sha256sum $dosyalar | base64 -w0)" >> "${GITHUB_OUTPUT}"
+
+  Menşei:
+    ihtiyaçlar: [inşa]
+    izinler:
+      eylemler: oku # İş akışı yolunu okumak için.
+      id-token: write # Menşei imzalamak için.
+      içerikler: yaz # Bir sürüme varlık eklemek için.
+    kullanımlar: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
+    ile:
+      base64-subjects: "${{ needs.build.outputs.digests }}"
+      upload-assets: true # İsteğe bağlı: Yeni bir sürüme yükleyin
+---
+ .../generator-generic-ossf-slsa3-publish.yml | 66 +++++++++++++++++++
+ 1 dosya değiştirildi, 66 ekleme(+)
+ 100644 modunu oluştur .github/workflows/generator-generic-ossf-slsa3-publish.yml
+
+diff --git a/.github/workflows/generator-generic-ossf-slsa3-publish.yml b/.github/workflows/generator-generic-ossf-slsa3-publish.yml
+yeni dosya modu 100644
+dizin 0000000..35c829b
+--- /dev/null
++++ b/.github/workflows/generator-generic-ossf-slsa3-publish.yml
+@@ -0,0 +1,66 @@
++# Bu iş akışı GitHub tarafından onaylanmamış eylemleri kullanıyor.
++# Bunlar üçüncü bir tarafça sağlanır ve aşağıdakiler tarafından yönetilir:
++# ayrı hizmet şartları, gizlilik politikası ve destek
++# belgeler.
++
++# Bu iş akışı projeniz için SLSA köken dosyası oluşturmanızı sağlar.
++# Nesil, köken gereksinimleri için seviye 3'ü karşılıyor - bkz. https://slsa.dev/spec/v0.1/requirements
++# Proje OpenSSF'nin (openssf.org) bir girişimi olup şu adreste geliştirilmektedir:
++# https://github.com/slsa-framework/slsa-github-generator.
++# Kaynak dosyası https://github.com/slsa-framework/slsa-verifier kullanılarak doğrulanabilir.
++# SLSA hakkında daha fazla bilgi edinmek ve tedarik zincirini nasıl iyileştirdiğini öğrenmek için slsa.dev adresini ziyaret edin.
++
++name: SLSA genel üreteci
++üzerinde:
++ iş akışı_gönderimi:
++ yayınla:
++ türler: [oluşturuldu]
++
++işler:
++ yapı:
++ çalışır: ubuntu-latest
++ çıktılar:
++ özetler: ${{ steps.hash.outputs.digests }}
++
++ adımlar:
++ - kullanımlar: actions/checkout@v4
++
++ # ================================================= ========
++ #
++ # Adım 1: Eserlerinizi oluşturun.
++ #
++ # ================================================= ========
++ - adı: Yapıtları oluştur
++ çalıştır: |"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
++ # Bunlar gerçekten muhteşem eserler.
++ echo "eser1" > eser1
++ echo "eser2" > eser2
++
++ # ================================================= ========
++ #
++ # Adım 2: Menşe konularını oluşturmak için bir adım ekleyin
++ # aşağıda gösterildiği gibi. sha256 toplam argümanlarını güncelleyin
++ # ürettiğiniz tüm ikili dosyaları dahil etmek için
++ # menşei.
++ #
++ # ================================================= ========
++ - adı: Menşei için konu oluştur
++ id: karma
++ çalıştır: "ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}|
++ 
++
++ # Menşeinin atıfta bulunacağı eserleri listeleyin.
++ dosyalar=$(ls yapıt*)
++ # Konuları oluştur (base64 kodlu).
++ echo "hash'ler=$(sha256sum $dosyalar | base64 -w0)" >> "${GITHUB_OUTPUT}"
++
++ menşei:
++ ihtiyaçlar: [oluşturma]
++ izinler:
++ actions: read # İş akışı yolunu okumak için.
++ id-token: write # Menşei imzalamak için.
++ içerikler: yaz # Bir sürüme varlık eklemek için.
++ kullanımlar: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
++ ile:
++ base64-subjects: "${{ needs.build.outputs.digests }}"
++ upload-assets: true # İsteğe bağlı: Yeni bir sürüme yükleyin
+
+4945b8b80fd65c0d15c57db178503e20ba27b129 Pazartesi Eylül 17 00:00:00 2001
+Gönderen: Sarsılmazxx02 <Recocankaya@gmail.com>
+Tarih: Cum, 21 Eyl 2024 12:23:18 +0300
+Konu: [PATCH 2/2] SLSA genel oluşturucusu oluşturun
+
+SLSA jenerik jeneratörü
+---
+ .github/workflows/SLSA genel üreteci | 66 ++++++++++++++++++++++++
+ 1 dosya değiştirildi, 66 ekleme(+)
+ 100644 modunu oluştur .github/workflows/SLSA genel oluşturucu
+
+diff --git a/.github/workflows/SLSA genel üreteci b/.github/workflows/SLSA genel üreteci
+yeni dosya modu 100644
+dizin 0000000..35c829b
+--- /dev/null
++++ b/.github/workflows/SLSA genel üreteci	
+@@ -0,0 +1,66 @@
++# Bu iş akışı GitHub tarafından onaylanmamış eylemleri kullanıyor.
++# Bunlar üçüncü bir tarafça sağlanır ve aşağıdakiler tarafından yönetilir:
++# ayrı hizmet şartları, gizlilik politikası ve destek
++# belgeler.
++
++# Bu iş akışı projeniz için SLSA köken dosyası oluşturmanızı sağlar.
++# Nesil, köken gereksinimleri için seviye 3'ü karşılıyor - bkz. https://slsa.dev/spec/v0.1/requirements
++# Proje OpenSSF'nin (openssf.org) bir girişimi olup şu adreste geliştirilmektedir:
++# https://github.com/slsa-framework/slsa-github-generator.
++# Kaynak dosyası https://github.com/slsa-framework/slsa-verifier kullanılarak doğrulanabilir.
++# SLSA hakkında daha fazla bilgi edinmek ve tedarik zincirini nasıl iyileştirdiğini öğrenmek için slsa.dev adresini ziyaret edin.
++
++name: SLSA genel üreteci
++üzerinde:
++ iş akışı_gönderimi:
++ yayınla:
++ türler: [oluşturuldu]
++
++işler:
++ yapı: "ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
++ çalışır: ubuntu-latest
++ çıktılar:
++ özetler: ${{ steps.hash.outputs.digests }}
++
++ adımlar:
++ - kullanımlar: actions/checkout@v4
++
++ # ================================================= ========
++ #
++ # Adım 1: Eserlerinizi oluşturun.
++ #
++ # ================================================= ========
++ - adı: Yapıtları oluştur
++ çalıştır: |
++ # Bunlar gerçekten muhteşem eserler.
++ echo "eser1" > eser1
++ echo "eser2" > eser2
++
++ # ================================================= ========
++ #
++ # Adım 2: Menşe konularını oluşturmak için bir adım ekleyin
++ # aşağıda gösterildiği gibi. sha256 toplam argümanlarını güncelleyin
++ # ürettiğiniz tüm ikili dosyaları dahil etmek için
++ # menşei.
++ #
++ # ================================================= ========
++ - adı: Menşei için konu oluştur
++ id: karma
++ çalıştır: |
++ set -euo boru hatası
++
++ # Menşeinin atıfta bulunacağı eserleri listeleyin.
++ dosyalar=$(ls yapıt*)
++ # Konuları oluştur (base64 kodlu).
++ echo "hash'ler=$(sha256sum $dosyalar | base64 -w0)" >> "${GITHUB_OUTPUT}"
++
++ menşei:
++ ihtiyaçlar: [oluşturma]
++ izinler:
++ actions: read # İş akışı yolunu okumak için.
++ id-token: write # Menşei imzalamak için.
++ içerikler: yaz # Bir sürüme varlık eklemek için.
++ kullanımlar: slsa-framework/slsa-github-generator/.github/workflows/generator_generic_slsa3.yml@v1.4.0
++ ile:
++ base64-subjects: "${{ needs.build.outputs.digests }}"
++ upload-assets: true # İsteğe bağlı: Yeni bir sürüme yükleyin{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+  }
+}
