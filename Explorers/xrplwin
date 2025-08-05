@@ -1,0 +1,17 @@
+{
+  "id": "xrplwin",
+  "name": "xrplwin.com",
+  "description": "Explore XRPLedger or Xahau with detailed transaction breakdown, hook explorer, validators, UNL, governance and more.",
+  "link": "https://xrplwin.com",
+  "x": null,
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "xrp-ledger": {
+      "homepage": "https://xrplwin.com",
+      "block": "https://xrplwin.com/ledger/%block%",
+      "transaction": "https://xrplwin.com/tx/%transaction%",
+      "address": "https://xrpscan.com/account/%address%"
+    }
+  }
+}
