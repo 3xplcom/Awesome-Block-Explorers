@@ -28,7 +28,7 @@
       "address": "https://etc.blockscout.com/address/%address%",
       "search": "https://etc.blockscout.com/search-results?q=%search%"
     },
-    "gnosis": {
+    "gnosis-chain": {
       "homepage": "https://gnosis.blockscout.com",
       "block": "https://gnosis.blockscout.com/block/%block%",
       "transaction": "https://gnosis.blockscout.com/tx/%transaction%",
