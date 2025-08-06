@@ -1,0 +1,1225 @@
+{
+    "blockchains": {
+        "arbitrum-one": {
+            "id": "arbitrum-one",
+            "name": "Arbitrum One",
+            "foreign_ids": {
+                "coingecko": "arbitrum",
+                "coinmarketcap": "arbitrum",
+                "binance": "arbitrum"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0x310f2679942aa0a64d05e9f936c01cb9e3713212ef28b81dd3398285cbc0ec61",
+                "address": "0x449d9bab5855d53864969defeeaf0148f7c104f2"
+            }
+        },
+        "avalanche": {
+            "id": "avalanche",
+            "name": "Avalanche",
+            "foreign_ids": {
+                "coingecko": "avalanche",
+                "coinmarketcap": "avalanche",
+                "binance": "avalanche"
+            },
+            "examples": {
+                "block": "100",
+                "transaction": "0x25550c5feac1c8a1c0ba5b6230627007fcac5969d3bb355483ca2aaf49796bf8",
+                "address": "0x27f6119df51a638be7b2b54811b80dd5b4caee9b"
+            }
+        },
+        "base": {
+            "id": "base",
+            "name": "Base",
+            "foreign_ids": {
+                "coingecko": null,
+                "coinmarketcap": null,
+                "binance": null
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0xc43b26117cdba66750690a9252fae114de3b23989874c9502a6e5084564a2f4d",
+                "address": "0x689f6b97cc8f9668af82d8c208afa67bc78e1c9a"
+            }
+        },
+        "beacon-chain": {
+            "id": "beacon-chain",
+            "name": "Beacon Chain",
+            "foreign_ids": {
+                "coingecko": null,
+                "coinmarketcap": null,
+                "binance": null
+            },
+            "examples": {
+                "block": "100000",
+                "transaction": "3200027",
+                "address": "296190"
+            }
+        },
+        "bitcoin-cash": {
+            "id": "bitcoin-cash",
+            "name": "Bitcoin Cash",
+            "foreign_ids": {
+                "coingecko": "bitcoin-cash",
+                "coinmarketcap": "bitcoin-cash",
+                "binance": "bitcoin-cash"
+            },
+            "examples": {
+                "block": "477120",
+                "transaction": "4b777745084ef83da587c7278db17f7a33ad5b831b5ee47b18c1c11c6165047c",
+                "address": "qquqx53l8ndg53hvgect6nl56zwmm37ghcu0yakvkp"
+            }
+        },
+        "bitcoin": {
+            "id": "bitcoin",
+            "name": "Bitcoin",
+            "foreign_ids": {
+                "coingecko": "bitcoin",
+                "coinmarketcap": "bitcoin",
+                "binance": "bitcoin"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "4a5e1e4baab89f3a32518a88c31bc87f618f76673e2cc77ab2127b7afdeda33b",
+                "address": "1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa"
+            }
+        },
+        "bnb": {
+            "id": "bnb",
+            "name": "BNB",
+            "foreign_ids": {
+                "coingecko": "bnb",
+                "coinmarketcap": "bnb",
+                "binance": "bnb"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0x283261ec450ece5e7c70c4afe39cd00860087824e4bb1d160bc55033bb2d0a67",
+                "address": "0xe2fc31f816a9b94326492132018c3aecc4a93ae1"
+            }
+        },
+        "cardano": {
+            "id": "cardano",
+            "name": "Cardano",
+            "foreign_ids": {
+                "coingecko": "cardano",
+                "coinmarketcap": "cardano",
+                "binance": "cardano"
+            },
+            "examples": {
+                "block": "9313781",
+                "transaction": "7468c2dd40fdb2c08e2be5ad7be76600f8d83e0f80d9626fe9ba83a96119dd5f",
+                "address": "addr1vykhj0et562lk094flx8ppdrjq7dmqffkxv99l3wyjm5c3gf2hlpm"
+            }
+        },
+        "dash": {
+            "id": "dash",
+            "name": "Dash",
+            "foreign_ids": {
+                "coingecko": "dash",
+                "coinmarketcap": "dash",
+                "binance": "dash"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "e0028eb9648db56b1ac77cf090b99048a8007e2bb64b68f092c03c7f56a662c7",
+                "address": "XvJwrQWJYzXE5uAxHzhwyJdQSYgeg5MvGn"
+            }
+        },
+        "digibyte": {
+            "id": "digibyte",
+            "name": "Digibyte",
+            "foreign_ids": {
+                "coingecko": "digibyte",
+                "coinmarketcap": "digibyte",
+                "binance": "digibyte"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "04955b63cae6a782aa43eedd4307f1145409a2771a2eed007300c48e472ac481",
+                "address": "DGbZULUsSiPitaZFN4ewsNwQEdnQ98jbCH"
+            }
+        },
+        "dogecoin": {
+            "id": "dogecoin",
+            "name": "Dogecoin",
+            "foreign_ids": {
+                "coingecko": "dogecoin",
+                "coinmarketcap": "dogecoin",
+                "binance": "dogecoin"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "5b2a3f53f605d62c53e62932dac6925e3d74afa5a4b459745c36d42d0ed26a69",
+                "address": "DQmCZQo3thCvTxkyAhPHfY7DVLqFtJ2ji6"
+            }
+        },
+        "ecash": {
+            "id": "ecash",
+            "name": "eCash",
+            "foreign_ids": {
+                "coingecko": "zcash",
+                "coinmarketcap": "zcash",
+                "binance": "zcash"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "c4eaa58879081de3c24a7b117ed2b28300e7ec4c4c1dff1d3f1268b7857a4ddb",
+                "address": "t1StbPM4X3j4FGM57HpGnb9BMbS7C1nFW1r"
+            }
+        },
+        "ethereum-classic": {
+            "id": "ethereum-classic",
+            "name": "Ethereum Classic",
+            "foreign_ids": {
+                "coingecko": "ethereum-classic",
+                "coinmarketcap": "ethereum-classic",
+                "binance": "ethereum-classic"
+            },
+            "examples": {
+                "block": "1189232",
+                "transaction": "0x9bf03714b6f16406f69732cb366a26cf21e9d524027a5640b8682e1872412522",
+                "address": "0x1a6e4028b1410942d851795cfe96ab586038d27d"
+            }
+        },
+        "ethereum": {
+            "id": "ethereum",
+            "name": "Ethereum",
+            "foreign_ids": {
+                "coingecko": "ethereum",
+                "coinmarketcap": "ethereum",
+                "binance": "ethereum"
+            },
+            "examples": {
+                "block": "1",
+                "transaction": "0xea1093d492a1dcb1bef708f771a99a96ff05dcab81ca76c31940300177fcf49f",
+                "address": "0x2a65aca4d5fc5b5c859090a6c34d164135398226"
+            }
+        },
+        "fantom": {
+            "id": "fantom",
+            "name": "Fantom",
+            "foreign_ids": {
+                "coingecko": "fantom",
+                "coinmarketcap": "fantom",
+                "binance": "fantom"
+            },
+            "examples": {
+                "block": "68000000",
+                "transaction": "0x1d7ac1eb1e42cecc4ecd7586b5ce7caef7f010b8ceaaa2d2e431edb7e33f548a",
+                "address": "0x6daf1f6ee738117882b02cbd7be4041d2db54125"
+            }
+        },
+        "gnosis-chain": {
+            "id": "gnosis-chain",
+            "name": "Gnosis Chain",
+            "foreign_ids": {
+                "coingecko": "xdai-ecosystem",
+                "coinmarketcap": null,
+                "binance": null
+            },
+            "examples": {
+                "block": "1",
+                "transaction": "0xd2c06cec1be379be60ee59d56e93111819e226bca920009c47ee56a1c23ddd99",
+                "address": "0xa3f08080ab9ea12fc3de1fce5c9caeff63657005"
+            }
+        },
+        "groestlcoin": {
+            "id": "groestlcoin",
+            "name": "Groestlcoin",
+            "foreign_ids": {
+                "coingecko": "groestlcoin",
+                "coinmarketcap": "groestlcoin",
+                "binance": "groestlcoin"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "3ce968df58f9c8a752306c4b7264afab93149dbc578bd08a42c446caaa6628bb",
+                "address": "FeBhpvNkdtxC7K3LEVT8uqskzwC4mFYrhR"
+            }
+        },
+        "handshake": {
+            "id": "handshake",
+            "name": "Handshake",
+            "foreign_ids": {
+                "coingecko": "handshake",
+                "coinmarketcap": "handshake",
+                "binance": "handshake"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "9553240e6f711271cfccf9407c9348996e61cb3bd39adbc2ec258ff940ff22c6",
+                "address": "hs1q7q3h4chglps004u3yn79z0cp9ed24rfr5ka9n5"
+            }
+        },
+        "kusama": {
+            "id": "kusama",
+            "name": "Kusama",
+            "foreign_ids": {
+                "coingecko": "kusama",
+                "coinmarketcap": "kusama",
+                "binance": "kusama"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0xb384cd393db4458afc3129b7c091078c8e7c38742608fed6018175027b6f03e2",
+                "address": "FRsbeFPVW9tERiU2Bdp8471NQDS4Aq6hD87n1c4JewUUKV3"
+            }
+        },
+        "litecoin": {
+            "id": "litecoin",
+            "name": "Litecoin",
+            "foreign_ids": {
+                "coingecko": "litecoin",
+                "coinmarketcap": "litecoin",
+                "binance": "litecoin"
+            },
+            "examples": {
+                "block": "2257920",
+                "transaction": "1c092b270672babb297140813d6a5b7dbb8e8173273d9e360443cd5767055f98",
+                "address": "MVSbdnUxCYTXdYjE1GSK9kwF31EZauNLAf"
+            }
+        },
+        "monero": {
+            "id": "monero",
+            "name": "Monero",
+            "foreign_ids": {
+                "coingecko": "monero",
+                "coinmarketcap": "monero",
+                "binance": "monero"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "c88ce9783b4f11190d7b9c17a69c1c52200f9faaee8e98dd07e6811175177139",
+                "address": "888tNkZrPN6JsEgekjMnABU4TBzc2Dt29EPAvkRxbANsAnjyPbb3iQ1YBRk1UXcdRsiKc9dhwMVgN5S9cQUiyoogDavup3H"
+            }
+        },
+        "moonbeam": {
+            "id": "moonbeam",
+            "name": "Moonbeam",
+            "foreign_ids": {
+                "coingecko": "moonbeam",
+                "coinmarketcap": "moonbeam",
+                "binance": "moonbeam"
+            },
+            "examples": {
+                "block": "5310000",
+                "transaction": "0xb287e79f585405cbd09fb53fa2eaa9bdd5dad431347beea64a64197a5a21dc0c",
+                "address": "0x229a93039d528b1b6c5357ec9f3f3fd86f71bd14"
+            }
+        },
+        "opbnb": {
+            "id": "opbnb",
+            "name": "opBNB",
+            "foreign_ids": {
+                "coingecko": null,
+                "coinmarketcap": null,
+                "binance": null
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0x835d817ab9d8e0854416bc8711466d8f20fb2c61e457d46e28f245b6fdc39554",
+                "address": "0xa66e2cecad16d6de42f98b8224959adc6064a442"
+            }
+        },
+        "optimism": {
+            "id": "optimism",
+            "name": "Optimism",
+            "foreign_ids": {
+                "coingecko": "optimism",
+                "coinmarketcap": "optimism-ethereum",
+                "binance": "optimism-ethereum"
+            },
+            "examples": {
+                "block": "100000000",
+                "transaction": "0x84e92efed88f61b6e901acb7e0d1e39ff69cf82e8fd266b06c42b02ce0a692d5",
+                "address": "0xb8ff877ed78ba520ece21b1de7843a8a57ca47cb"
+            }
+        },
+        "peercoin": {
+            "id": "peercoin",
+            "name": "Peercoin",
+            "foreign_ids": {
+                "coingecko": "peercoin",
+                "coinmarketcap": "peercoin",
+                "binance": "peercoin"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "4105cc503882c6852b1ce4024c730d4d1d31342aada62c0703aa603d92f75501",
+                "address": "PTNSKANTVh6mLuCbAWTmKDZeDedddcGeZZ"
+            }
+        },
+        "polkadot": {
+            "id": "polkadot",
+            "name": "Polkadot",
+            "foreign_ids": {
+                "coingecko": "polkadot",
+                "coinmarketcap": "polkadot",
+                "binance": "polkadot"
+            },
+            "examples": {
+                "block": "15822006",
+                "transaction": "0x3b9bf931486b1e4b88cdc9aef6743482aaa2358f12a458a38a9630e462adb3f8",
+                "address": "14ghKTz5mjZPgGYvgVC9VnFw1HYZmmsnYvSSHFgFTJfMvwQS"
+            }
+        },
+        "polygon-zkevm": {
+            "id": "polygon-zkevm",
+            "name": "Polygon zkEVM",
+            "foreign_ids": {
+                "coingecko": null,
+                "coinmarketcap": null,
+                "binance": null
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0x00e95d9d1139543ed0cd5fcdf80f078071698e9ec7da5b1012dbfb3aca5b870a",
+                "address": "0xe25ea842727b8ac593ed106dc9cb4d1562115f10"
+            }
+        },
+        "polygon": {
+            "id": "polygon",
+            "name": "Polygon",
+            "foreign_ids": {
+                "coingecko": "polygon",
+                "coinmarketcap": "polygon",
+                "binance": "polygon"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "0x0c715b7ac446c896444f93b763ca8c560897a9e069e11718107ad77101f0de19",
+                "address": "0x0375b2fc7140977c9c76d45421564e354ed42277"
+            }
+        },
+        "ripple": {
+            "id": "ripple",
+            "name": "Ripple",
+            "foreign_ids": {
+                "coingecko": "ripple",
+                "coinmarketcap": "ripple",
+                "binance": "ripple"
+            },
+            "examples": {
+                "block": "82695177",
+                "transaction": "1F56104B82618E247F230454D34F24EA30BD0E7465FC066F7FF1971B6EF6CE1F",
+                "address": "r4AZpDKVoBxVcYUJCWMcqZzyWsHTteC4ZE"
+            }
+        },
+        "solana": {
+            "id": "solana",
+            "name": "Solana",
+            "foreign_ids": {
+                "coingecko": "solana",
+                "coinmarketcap": "solana",
+                "binance": "solana"
+            },
+            "examples": {
+                "block": "218705853",
+                "transaction": "4WuxY8mK4cS7WAAfgS2QPGCcEVe7aXCvA29oK23oRs4HVMkycYuCH5kTs7kXxXXDwubmBczU37WreviYSdzAiLrp",
+                "address": "8XpocjZodGQiFdoh2P33EXF1dDCJErx5nAsnz81sK4wy"
+            }
+        },
+        "ton": {
+            "id": "ton",
+            "name": "The Open Network",
+            "foreign_ids": {
+                "coingecko": "toncoin",
+                "coinmarketcap": "toncoin",
+                "binance": "toncoin"
+            },
+            "examples": {
+                "block": "1",
+                "transaction": "3a175a1995d9634cfa527a1701daeb158b0aeb1e040a390ba697a6110ee1b9bf",
+                "address": "EQCSP1xhpNpQmIIYDwbMs2lZmy6ep496v3JfIy__DTH6ZqJ2"
+            }
+        },
+        "tron": {
+            "id": "tron",
+            "name": "TRON",
+            "foreign_ids": {
+                "coingecko": "tron",
+                "coinmarketcap": "tron",
+                "binance": "tron"
+            },
+            "examples": {
+                "block": "52000000",
+                "transaction": "cd1d85d34914282da1556dc4222f62ed410271f934c9fe96dcfecf1e9a810b81",
+                "address": "TWjspcCqEJYLukPZYW4V5javLw7QbRj5Ye"
+            }
+        },
+        "xrp-ledger": {
+            "id": "xrp-ledger",
+            "name": "XRP Ledger",
+            "foreign_ids": {
+                "coingecko": "xrp",
+                "coinmarketcap": "xrp",
+                "binance": "xrp"
+            },
+            "examples": {
+                "block": "85262358",
+                "transaction": "002216cfa7896406c59d4bae7c193a57681632f7aa5dd02988803f38ef772ff0",
+                "address": "r3EmDxejUHvG6gASt66SD4fV5XGeXkWh2q"
+            }
+        },
+        "zcash": {
+            "id": "zcash",
+            "name": "Zcash",
+            "foreign_ids": {
+                "coingecko": "zcash",
+                "coinmarketcap": "zcash",
+                "binance": "zcash"
+            },
+            "examples": {
+                "block": "0",
+                "transaction": "c4eaa58879081de3c24a7b117ed2b28300e7ec4c4c1dff1d3f1268b7857a4ddb",
+                "address": "t1StbPM4X3j4FGM57HpGnb9BMbS7C1nFW1r"
+            }
+        }
+    },
+    "explorers": [
+        {
+            "id": "3xpl",
+            "name": "3xpl",
+            "description": "Fastest adless universal block explorer",
+            "link": "https://3xpl.com",
+            "x": "https://x.com/3xplcom",
+            "discord": "https://3xpl.com/discord",
+            "search": "https://3xpl.com/search?q=%search%",
+            "blockchains": {
+                "bitcoin": {
+                    "homepage": "https://3xpl.com/bitcoin",
+                    "block": "https://3xpl.com/bitcoin/block/%block%",
+                    "transaction": "https://3xpl.com/bitcoin/transaction/%transaction%",
+                    "address": "https://3xpl.com/bitcoin/address/%address%"
+                },
+                "ethereum": {
+                    "homepage": "https://3xpl.com/ethereum",
+                    "block": "https://3xpl.com/ethereum/block/%block%",
+                    "transaction": "https://3xpl.com/ethereum/transaction/%transaction%",
+                    "address": "https://3xpl.com/ethereum/address/%address%"
+                },
+                "arbitrum-one": {
+                    "homepage": "https://3xpl.com/arbitrum-one",
+                    "block": "https://3xpl.com/arbitrum-one/block/%block%",
+                    "transaction": "https://3xpl.com/arbitrum-one/transaction/%transaction%",
+                    "address": "https://3xpl.com/arbitrum-one/address/%address%"
+                },
+                "base": {
+                    "homepage": "https://3xpl.com/base",
+                    "block": "https://3xpl.com/base/block/%block%",
+                    "transaction": "https://3xpl.com/base/transaction/%transaction%",
+                    "address": "https://3xpl.com/base/address/%address%"
+                },
+                "beacon-chain": {
+                    "homepage": "https://3xpl.com/beacon-chain",
+                    "block": "https://3xpl.com/beacon-chain/epoch/%block%",
+                    "transaction": "https://3xpl.com/beacon-chain/slot/%transaction%",
+                    "address": "https://3xpl.com/beacon-chain/validator/%address%"
+                },
+                "bitcoin-cash": {
+                    "homepage": "https://3xpl.com/bitcoin-cash",
+                    "block": "https://3xpl.com/bitcoin-cash/block/%block%",
+                    "transaction": "https://3xpl.com/bitcoin-cash/transaction/%transaction%",
+                    "address": "https://3xpl.com/bitcoin-cash/address/%address%"
+                },
+                "bnb": {
+                    "homepage": "https://3xpl.com/bnb",
+                    "block": "https://3xpl.com/bnb/block/%block%",
+                    "transaction": "https://3xpl.com/bnb/transaction/%transaction%",
+                    "address": "https://3xpl.com/bnb/address/%address%"
+                },
+                "cardano": {
+                    "homepage": "https://3xpl.com/cardano",
+                    "block": "https://3xpl.com/cardano/block/%block%",
+                    "transaction": "https://3xpl.com/cardano/transaction/%transaction%",
+                    "address": "https://3xpl.com/cardano/address/%address%"
+                },
+                "dash": {
+                    "homepage": "https://3xpl.com/dash",
+                    "block": "https://3xpl.com/dash/block/%block%",
+                    "transaction": "https://3xpl.com/dash/transaction/%transaction%",
+                    "address": "https://3xpl.com/dash/address/%address%"
+                },
+                "digibyte": {
+                    "homepage": "https://3xpl.com/digibyte",
+                    "block": "https://3xpl.com/digibyte/block/%block%",
+                    "transaction": "https://3xpl.com/digibyte/transaction/%transaction%",
+                    "address": "https://3xpl.com/digibyte/address/%address%"
+                },
+                "dogecoin": {
+                    "homepage": "https://3xpl.com/dogecoin",
+                    "block": "https://3xpl.com/dogecoin/block/%block%",
+                    "transaction": "https://3xpl.com/dogecoin/transaction/%transaction%",
+                    "address": "https://3xpl.com/dogecoin/address/%address%"
+                },
+                "fantom": {
+                    "homepage": "https://3xpl.com/fantom",
+                    "block": "https://3xpl.com/fantom/block/%block%",
+                    "transaction": "https://3xpl.com/fantom/transaction/%transaction%",
+                    "address": "https://3xpl.com/fantom/address/%address%"
+                },
+                "gnosis-chain": {
+                    "homepage": "https://3xpl.com/gnosis-chain",
+                    "block": "https://3xpl.com/gnosis-chain/block/%block%",
+                    "transaction": "https://3xpl.com/gnosis-chain/transaction/%transaction%",
+                    "address": "https://3xpl.com/gnosis-chain/address/%address%"
+                },
+                "handshake": {
+                    "homepage": "https://3xpl.com/handshake",
+                    "block": "https://3xpl.com/handshake/block/%block%",
+                    "transaction": "https://3xpl.com/handshake/transaction/%transaction%",
+                    "address": "https://3xpl.com/handshake/address/%address%"
+                },
+                "litecoin": {
+                    "homepage": "https://3xpl.com/litecoin",
+                    "block": "https://3xpl.com/litecoin/block/%block%",
+                    "transaction": "https://3xpl.com/litecoin/transaction/%transaction%",
+                    "address": "https://3xpl.com/litecoin/address/%address%"
+                },
+                "monero": {
+                    "homepage": "https://3xpl.com/monero",
+                    "block": "https://3xpl.com/monero/block/%block%",
+                    "transaction": "https://3xpl.com/monero/transaction/%transaction%",
+                    "address": "https://3xpl.com/monero/address/%address%"
+                },
+                "moonbeam": {
+                    "homepage": "https://3xpl.com/moonbeam",
+                    "block": "https://3xpl.com/moonbeam/block/%block%",
+                    "transaction": "https://3xpl.com/moonbeam/transaction/%transaction%",
+                    "address": "https://3xpl.com/moonbeam/address/%address%"
+                },
+                "opbnb": {
+                    "homepage": "https://3xpl.com/opbnb",
+                    "block": "https://3xpl.com/opbnb/block/%block%",
+                    "transaction": "https://3xpl.com/opbnb/transaction/%transaction%",
+                    "address": "https://3xpl.com/opbnb/address/%address%"
+                },
+                "optimism": {
+                    "homepage": "https://3xpl.com/optimism",
+                    "block": "https://3xpl.com/optimism/block/%block%",
+                    "transaction": "https://3xpl.com/optimism/transaction/%transaction%",
+                    "address": "https://3xpl.com/optimism/address/%address%"
+                },
+                "peercoin": {
+                    "homepage": "https://3xpl.com/peercoin",
+                    "block": "https://3xpl.com/peercoin/block/%block%",
+                    "transaction": "https://3xpl.com/peercoin/transaction/%transaction%",
+                    "address": "https://3xpl.com/peercoin/address/%address%"
+                },
+                "polkadot": {
+                    "homepage": "https://3xpl.com/polkadot",
+                    "block": "https://3xpl.com/polkadot/block/%block%",
+                    "transaction": "https://3xpl.com/polkadot/transaction/%transaction%",
+                    "address": "https://3xpl.com/polkadot/address/%address%"
+                },
+                "polygon": {
+                    "homepage": "https://3xpl.com/polygon",
+                    "block": "https://3xpl.com/polygon/block/%block%",
+                    "transaction": "https://3xpl.com/polygon/transaction/%transaction%",
+                    "address": "https://3xpl.com/polygon/address/%address%"
+                },
+                "polygon-zkevm": {
+                    "homepage": "https://3xpl.com/polygon-zkevm",
+                    "block": "https://3xpl.com/polygon-zkevm/batch/%block%",
+                    "transaction": "https://3xpl.com/polygon-zkevm/transaction/%transaction%",
+                    "address": "https://3xpl.com/polygon-zkevm/address/%address%"
+                },
+                "solana": {
+                    "homepage": "https://3xpl.com/solana",
+                    "block": "https://3xpl.com/solana/slot/%block%",
+                    "transaction": "https://3xpl.com/solana/transaction/%transaction%",
+                    "address": "https://3xpl.com/solana/address/%address%"
+                },
+                "ton": {
+                    "homepage": "https://3xpl.com/ton",
+                    "block": "https://3xpl.com/ton/block/%block%",
+                    "transaction": "https://3xpl.com/ton/transaction/%transaction%",
+                    "address": "https://3xpl.com/ton/address/%address%"
+                },
+                "tron": {
+                    "homepage": "https://3xpl.com/tron",
+                    "block": "https://3xpl.com/tron/block/%block%",
+                    "transaction": "https://3xpl.com/tron/transaction/%transaction%",
+                    "address": "https://3xpl.com/tron/address/%address%"
+                },
+                "zcash": {
+                    "homepage": "https://3xpl.com/zcash",
+                    "block": "https://3xpl.com/zcash/block/%block%",
+                    "transaction": "https://3xpl.com/zcash/transaction/%transaction%",
+                    "address": "https://3xpl.com/zcash/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "adastat",
+            "name": "adastat.net",
+            "description": "AdaStat",
+            "link": "https://adastat.net",
+            "x": "https://x.com/ada_stat",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "cardano": {
+                    "homepage": "https://adastat.net/",
+                    "block": "https://adastat.net/blocks/%block%",
+                    "transaction": "https://adastat.net/transactions/%transaction%",
+                    "address": "https://adastat.net/addresses/%address%"
+                }
+            }
+        },
+        {
+            "id": "beaconcha.in",
+            "name": "beaconcha.in",
+            "description": "Open source Ethereum blockchain explorer",
+            "link": "https://beaconcha.in",
+            "x": "https://x.com/beaconcha_in",
+            "discord": "https://dsc.gg/beaconchain",
+            "search": "https://beaconcha.in/search",
+            "blockchains": {
+                "beacon-chain": {
+                    "homepage": "https://beaconcha.in",
+                    "block": "https://beaconcha.in/epoch/%block%",
+                    "transaction": "https://beaconcha.in/slot/%transaction%",
+                    "address": "https://beaconcha.in/validator/%address%"
+                }
+            }
+        },
+        {
+            "id": "binplorer",
+            "name": "binplorer.com",
+            "description": "BNB Chain (BEP-20) explorer",
+            "link": "https://binplorer.com",
+            "x": "https://x.com/binplorer",
+            "discord": null,
+            "search": "https://binplorer.com/search/%search%",
+            "blockchains": {
+                "bnb": {
+                    "homepage": "https://binplorer.com",
+                    "block": null,
+                    "transaction": "https://binplorer.com/tx/%transaction%",
+                    "address": "https://binplorer.com/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "bitcoinunlimited",
+            "name": "bitcoinunlimited.info",
+            "description": "Bitcoin Cash explorer by Bitcoin Unlimited",
+            "link": "https://explorer.bitcoinunlimited.info",
+            "x": "https://x.com/bitcoinunlimit",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "bitcoin-cash": {
+                    "homepage": "https://explorer.bitcoinunlimited.info",
+                    "block": "https://explorer.bitcoinunlimited.info/block-height/%block%",
+                    "transaction": "https://explorer.bitcoinunlimited.info/tx/%transaction%",
+                    "address": "https://explorer.bitcoinunlimited.info/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "bithomp",
+            "name": "bithomp.com",
+            "description": "Scan the XRP Ledger",
+            "link": "https://bithomp.com",
+            "x": "https://x.com/bithomp",
+            "discord": "https://discord.gg/ZahGJ29WEs",
+            "search": "https://bithomp.com/explorer/%search%",
+            "blockchains": {
+                "xrp-ledger": {
+                    "homepage": "https://bithomp.com",
+                    "block": "https://bithomp.com/ledger/%block%",
+                    "transaction": "https://bithomp.com/explorer/%transaction%",
+                    "address": "https://bithomp.com/explorer/%address%"
+                }
+            }
+        },
+        {
+            "id": "blockchair",
+            "name": "blockchair.com",
+            "description": "Blockchair: the most popular search and analytics engine for multiple blockchains",
+            "link": "https://blockchair.com",
+            "x": "https://x.com/blockchair",
+            "discord": null,
+            "search": "https://blockchair.com/search?q=%search%",
+            "blockchains": {
+                "bitcoin": {
+                    "homepage": "https://blockchair.com/bitcoin",
+                    "block": "https://blockchair.com/bitcoin/block/%block%",
+                    "transaction": "https://blockchair.com/bitcoin/transaction/%transaction%",
+                    "address": "https://blockchair.com/bitcoin/address/%address%"
+                },
+                "ethereum": {
+                    "homepage": "https://blockchair.com/ethereum",
+                    "block": "https://blockchair.com/ethereum/block/%block%",
+                    "transaction": "https://blockchair.com/ethereum/transaction/%transaction%",
+                    "address": "https://blockchair.com/ethereum/address/%address%"
+                },
+                "bnb": {
+                    "homepage": "https://blockchair.com/bnb",
+                    "block": "https://blockchair.com/bnb/block/%block%",
+                    "transaction": "https://blockchair.com/bnb/transaction/%transaction%",
+                    "address": "https://blockchair.com/bnb/address/%address%"
+                },
+                "opbnb": {
+                    "homepage": "https://blockchair.com/opbnb",
+                    "block": "https://blockchair.com/opbnb/block/%block%",
+                    "transaction": "https://blockchair.com/opbnb/transaction/%transaction%",
+                    "address": "https://blockchair.com/opbnb/address/%address%"
+                },
+                "litecoin": {
+                    "homepage": "https://blockchair.com/litecoin",
+                    "block": "https://blockchair.com/litecoin/block/%block%",
+                    "transaction": "https://blockchair.com/litecoin/transaction/%transaction%",
+                    "address": "https://blockchair.com/litecoin/address/%address%"
+                },
+                "cardano": {
+                    "homepage": "https://blockchair.com/cardano",
+                    "block": "https://blockchair.com/cardano/block/%block%",
+                    "transaction": "https://blockchair.com/cardano/transaction/%transaction%",
+                    "address": "https://blockchair.com/cardano/address/%address%"
+                },
+                "ripple": {
+                    "homepage": "https://blockchair.com/ripple",
+                    "block": "https://blockchair.com/ripple/ledger/%block%",
+                    "transaction": "https://blockchair.com/ripple/transaction/%transaction%",
+                    "address": "https://blockchair.com/ripple/account/%address%"
+                },
+                "polkadot": {
+                    "homepage": "https://blockchair.com/polkadot",
+                    "block": "https://blockchair.com/polkadot/block/%block%",
+                    "transaction": "https://blockchair.com/polkadot/transaction/%transaction%",
+                    "address": "https://blockchair.com/polkadot/address/%address%"
+                },
+                "dogecoin": {
+                    "homepage": "https://blockchair.com/dogecoin",
+                    "block": "https://blockchair.com/dogecoin/block/%block%",
+                    "transaction": "https://blockchair.com/dogecoin/transaction/%transaction%",
+                    "address": "https://blockchair.com/dogecoin/address/%address%"
+                },
+                "bitcoin-cash": {
+                    "homepage": "https://blockchair.com/bitcoin-cash",
+                    "block": "https://blockchair.com/bitcoin-cash/block/%block%",
+                    "transaction": "https://blockchair.com/bitcoin-cash/transaction/%transaction%",
+                    "address": "https://blockchair.com/bitcoin-cash/address/%address%"
+                },
+                "monero": {
+                    "homepage": "https://blockchair.com/monero",
+                    "block": "https://blockchair.com/monero/block/%block%",
+                    "transaction": "https://blockchair.com/monero/transaction/%transaction%",
+                    "address": "https://blockchair.com/monero/address/%address%"
+                },
+                "kusama": {
+                    "homepage": "https://blockchair.com/kusama",
+                    "block": "https://blockchair.com/kusama/block/%block%",
+                    "transaction": "https://blockchair.com/kusama/transaction/%transaction%",
+                    "address": "https://blockchair.com/kusama/address/%address%"
+                },
+                "ecash": {
+                    "homepage": "https://blockchair.com/ecash",
+                    "block": "https://blockchair.com/ecash/block/%block%",
+                    "transaction": "https://blockchair.com/ecash/transaction/%transaction%",
+                    "address": "https://blockchair.com/ecash/address/%address%"
+                },
+                "zcash": {
+                    "homepage": "https://blockchair.com/zcash",
+                    "block": "https://blockchair.com/zcash/block/%block%",
+                    "transaction": "https://blockchair.com/zcash/transaction/%transaction%",
+                    "address": "https://blockchair.com/zcash/address/%address%"
+                },
+                "dash": {
+                    "homepage": "https://blockchair.com/dash",
+                    "block": "https://blockchair.com/dash/block/%block%",
+                    "transaction": "https://blockchair.com/dash/transaction/%transaction%",
+                    "address": "https://blockchair.com/dash/address/%address%"
+                },
+                "groestlcoin": {
+                    "homepage": "https://blockchair.com/groestlcoin",
+                    "block": "https://blockchair.com/groestlcoin/block/%block%",
+                    "transaction": "https://blockchair.com/groestlcoin/transaction/%transaction%",
+                    "address": "https://blockchair.com/groestlcoin/address/%address%"
+                },
+                "arbitrum-one": {
+                    "homepage": "https://blockchair.com/arbitrum-one",
+                    "block": "https://blockchair.com/arbitrum-one/block/%block%",
+                    "transaction": "https://blockchair.com/arbitrum-one/transaction/%transaction%",
+                    "address": "https://blockchair.com/arbitrum-one/address/%address%"
+                },
+                "base": {
+                    "homepage": "https://blockchair.com/base",
+                    "block": "https://blockchair.com/base/block/%block%",
+                    "transaction": "https://blockchair.com/base/transaction/%transaction%",
+                    "address": "https://blockchair.com/base/address/%address%"
+                },
+                "beacon-chain": {
+                    "homepage": "https://blockchair.com/beacon-chain",
+                    "block": "https://blockchair.com/beacon-chain/epoch/%block%",
+                    "transaction": "https://blockchair.com/beacon-chain/slot/%transaction%",
+                    "address": "https://blockchair.com/beacon-chain/validator/%address%"
+                },
+                "digibyte": {
+                    "homepage": "https://blockchair.com/digibyte",
+                    "block": "https://blockchair.com/digibyte/block/%block%",
+                    "transaction": "https://blockchair.com/digibyte/transaction/%transaction%",
+                    "address": "https://blockchair.com/digibyte/address/%address%"
+                },
+                "fantom": {
+                    "homepage": "https://blockchair.com/fantom",
+                    "block": "https://blockchair.com/fantom/block/%block%",
+                    "transaction": "https://blockchair.com/fantom/transaction/%transaction%",
+                    "address": "https://blockchair.com/fantom/address/%address%"
+                },
+                "gnosis-chain": {
+                    "homepage": "https://blockchair.com/gnosis-chain",
+                    "block": "https://blockchair.com/gnosis-chain/block/%block%",
+                    "transaction": "https://blockchair.com/gnosis-chain/transaction/%transaction%",
+                    "address": "https://blockchair.com/gnosis-chain/address/%address%"
+                },
+                "handshake": {
+                    "homepage": "https://blockchair.com/handshake",
+                    "block": "https://blockchair.com/handshake/block/%block%",
+                    "transaction": "https://blockchair.com/handshake/transaction/%transaction%",
+                    "address": "https://blockchair.com/handshake/address/%address%"
+                },
+                "moonbeam": {
+                    "homepage": "https://blockchair.com/moonbeam",
+                    "block": "https://blockchair.com/moonbeam/block/%block%",
+                    "transaction": "https://blockchair.com/moonbeam/transaction/%transaction%",
+                    "address": "https://blockchair.com/moonbeam/address/%address%"
+                },
+                "optimism": {
+                    "homepage": "https://blockchair.com/optimism",
+                    "block": "https://blockchair.com/optimism/block/%block%",
+                    "transaction": "https://blockchair.com/optimism/transaction/%transaction%",
+                    "address": "https://blockchair.com/optimism/address/%address%"
+                },
+                "peercoin": {
+                    "homepage": "https://blockchair.com/peercoin",
+                    "block": "https://blockchair.com/peercoin/block/%block%",
+                    "transaction": "https://blockchair.com/peercoin/transaction/%transaction%",
+                    "address": "https://blockchair.com/peercoin/address/%address%"
+                },
+                "polygon": {
+                    "homepage": "https://blockchair.com/polygon",
+                    "block": "https://blockchair.com/polygon/block/%block%",
+                    "transaction": "https://blockchair.com/polygon/transaction/%transaction%",
+                    "address": "https://blockchair.com/polygon/address/%address%"
+                },
+                "polygon-zkevm": {
+                    "homepage": "https://blockchair.com/polygon-zkevm",
+                    "block": "https://blockchair.com/polygon-zkevm/batch/%block%",
+                    "transaction": "https://blockchair.com/polygon-zkevm/transaction/%transaction%",
+                    "address": "https://blockchair.com/polygon-zkevm/address/%address%"
+                },
+                "solana": {
+                    "homepage": "https://blockchair.com/solana",
+                    "block": "https://blockchair.com/solana/slot/%block%",
+                    "transaction": "https://blockchair.com/solana/transaction/%transaction%",
+                    "address": "https://blockchair.com/solana/address/%address%"
+                },
+                "ton": {
+                    "homepage": "https://blockchair.com/ton",
+                    "block": "https://blockchair.com/ton/block/%block%",
+                    "transaction": "https://blockchair.com/ton/transaction/%transaction%",
+                    "address": "https://blockchair.com/ton/address/%address%"
+                },
+                "tron": {
+                    "homepage": "https://blockchair.com/tron",
+                    "block": "https://blockchair.com/tron/block/%block%",
+                    "transaction": "https://blockchair.com/tron/transaction/%transaction%",
+                    "address": "https://blockchair.com/tron/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "blockcypher",
+            "name": "blockcypher.com",
+            "description": "blockcypher.com",
+            "link": "https://www.blockcypher.com",
+            "x": null,
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "dogecoin": {
+                    "homepage": "https://live.blockcypher.com/doge",
+                    "block": "https://live.blockcypher.com/doge/block/%block%",
+                    "transaction": "https://live.blockcypher.com/doge/tx/%transaction%",
+                    "address": "https://live.blockcypher.com/doge/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "blockscout",
+            "name": "blockscout.com",
+            "description": "Blockscout is optimized for next-level blockchain exploration. Multi-chain, highly configurable, and open-source, the explorer portal opens up access to all chain data and functionality.",
+            "link": "https://blockscout.com",
+            "x": "https://x.com/blockscoutcom",
+            "discord": "https://discord.gg/blockscout",
+            "search": null,
+            "blockchains": {
+                "ethereum": {
+                    "homepage": "https://eth.blockscout.com",
+                    "block": "https://eth.blockscout.com/block/%block%",
+                    "transaction": "https://eth.blockscout.com/tx/%transaction%",
+                    "address": "https://eth.blockscout.com/address/%address%",
+                    "search": "https://eth.blockscout.com/search-results?q=%search%"
+                },
+                "base": {
+                    "homepage": "https://base.blockscout.com",
+                    "block": "https://base.blockscout.com/block/%block%",
+                    "transaction": "https://base.blockscout.com/tx/%transaction%",
+                    "address": "https://base.blockscout.com/address/%address%",
+                    "search": "https://base.blockscout.com/search-results?q=%search%"
+                },
+                "ethereum-classic": {
+                    "homepage": "https://etc.blockscout.com",
+                    "block": "https://etc.blockscout.com/block/%block%",
+                    "transaction": "https://etc.blockscout.com/tx/%transaction%",
+                    "address": "https://etc.blockscout.com/address/%address%",
+                    "search": "https://etc.blockscout.com/search-results?q=%search%"
+                },
+                "gnosis-chain": {
+                    "homepage": "https://gnosis.blockscout.com",
+                    "block": "https://gnosis.blockscout.com/block/%block%",
+                    "transaction": "https://gnosis.blockscout.com/tx/%transaction%",
+                    "address": "https://gnosis.blockscout.com/address/%address%",
+                    "search": "https://gnosis.blockscout.com/search-results?q=%search%"
+                },
+                "optimism": {
+                    "homepage": "https://explorer.optimism.io",
+                    "block": "https://explorer.optimism.io/block/%block%",
+                    "transaction": "https://explorer.optimism.io/tx/%transaction%",
+                    "address": "https://explorer.optimism.io/address/%address%",
+                    "search": "https://explorer.optimism.io/search-results?q=%search%"
+                }
+            }
+        },
+        {
+            "id": "bscscan",
+            "name": "bscscan.com",
+            "description": "BscScan allows you to explore and search the Binance blockchain for transactions, addresses, tokens, prices and other activities taking place on BNB Smart Chain",
+            "link": "https://bscscan.com",
+            "x": "https://twitter.com/bscscan",
+            "discord": null,
+            "search": "https://bscscan.com/search?q=%search%",
+            "blockchains": {
+                "bnb": {
+                    "homepage": "https://bscscan.com",
+                    "block": "https://bscscan.com/block/%block%",
+                    "transaction": "https://bscscan.com/tx/%transaction%",
+                    "address": "https://bscscan.com/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "cardanoscan",
+            "name": "cardanoscan.io",
+            "description": "Cardanoscan",
+            "link": "https://cardanoscan.io/",
+            "x": "https://x.com/cardanoscanio",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "cardano": {
+                    "homepage": "https://cardanoscan.io/",
+                    "block": "https://cardanoscan.io/block/%block%",
+                    "transaction": "https://cardanoscan.io/transaction/%transaction%",
+                    "address": "https://cardanoscan.io/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "chain",
+            "name": "chain.so",
+            "description": "chain.so",
+            "link": "https://chain.so",
+            "x": null,
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "dogecoin": {
+                    "homepage": "https://chain.so/DOGE",
+                    "search": "https://chain.so/resolver/DOGE/?query=%search%",
+                    "block": "https://chain.so/block/DOGE/%block%",
+                    "transaction": "https://chain.so/tx/DOGE/%transaction%",
+                    "address": "https://chain.so/address/DOGE/%address%"
+                }
+            }
+        },
+        {
+            "id": "dogechain",
+            "name": "dogechain.info",
+            "description": "Dogechain helps you search the Dogecoin network for addresses, transactions, blocks. Includes a free Dogecoin wallet and developer API.",
+            "link": "https://dogechain.info",
+            "x": null,
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "dogecoin": {
+                    "homepage": "https://dogechain.info",
+                    "block": "https://dogechain.info/block/%block%",
+                    "transaction": "https://dogechain.info/tx/%transaction%",
+                    "address": "https://dogechain.info/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "etherscan",
+            "name": "etherscan.io",
+            "description": "Etherscan allows you to explore and search the Ethereum blockchain for transactions, addresses, tokens, prices and other activities taking place on Ethereum (ETH)",
+            "link": "https://etherscan.io",
+            "x": "https://x.com/etherscan",
+            "discord": null,
+            "search": "https://etherscan.io/search?q=%search%",
+            "blockchains": {
+                "ethereum": {
+                    "homepage": "https://etherscan.io",
+                    "block": "https://etherscan.io/block/%block%",
+                    "transaction": "https://etherscan.io/tx/%transaction%",
+                    "address": "https://etherscan.io/address/%address%"
+                },
+                "optimism": {
+                    "homepage": "https://optimistic.etherscan.io",
+                    "search": "https://optimistic.etherscan.io/search?q=%search%",
+                    "block": "https://optimistic.etherscan.io/block/%block%",
+                    "transaction": "https://optimistic.etherscan.io/tx/%transaction%",
+                    "address": "https://optimistic.etherscan.io/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "ethplorer",
+            "name": "ethplorer.io",
+            "description": "Ethereum explorer",
+            "link": "https://ethplorer.io",
+            "x": "https://x.com/ethplorer",
+            "discord": null,
+            "search": "https://ethplorer.io/search/%search%",
+            "blockchains": {
+                "ethereum": {
+                    "homepage": "https://ethplorer.io",
+                    "block": null,
+                    "transaction": "https://ethplorer.io/tx/%transaction%",
+                    "address": "https://ethplorer.io/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "subscan",
+            "name": "subscan.io",
+            "description": "Aggregate Substrate ecological network high-precision Web3 explorer",
+            "link": "https://www.subscan.io",
+            "x": "https://twitter.com/subscan_io",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "polkadot": {
+                    "homepage": "https://polkadot.subscan.io",
+                    "block": "https://polkadot.subscan.io/block/%block%",
+                    "transaction": "https://polkadot.subscan.io/extrinsic/%transaction%",
+                    "address": "https://polkadot.subscan.io/account/%address%"
+                },
+                "moonbeam": {
+                    "homepage": "https://moonbeam.subscan.io",
+                    "block": "https://moonbeam.subscan.io/block/%block%",
+                    "transaction": "https://moonbeam.subscan.io/extrinsic/%transaction%",
+                    "address": "https://moonbeam.subscan.io/account/%address%"
+                }
+            }
+        },
+        {
+            "id": "tronscan",
+            "name": "tronscan.org",
+            "description": "TRONSCAN: the first blockchain browser in the TRON community",
+            "link": "https://tronscan.org",
+            "x": "https://twitter.com/TRONSCAN_ORG",
+            "discord": "https://discord.gg/AgJGCubZWE",
+            "search": null,
+            "blockchains": {
+                "tron": {
+                    "homepage": "https://tronscan.org",
+                    "block": "https://tronscan.org/#/block/%block%",
+                    "transaction": "https://tronscan.org/#/transaction/%transaction%",
+                    "address": "https://tronscan.org/#/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "viabtc",
+            "name": "viabtc.com",
+            "description": "A global cryptocurency mining pool",
+            "link": "https://viabtc.com",
+            "x": "https://twitter.com/ViaBTC",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "bitcoin": {
+                    "homepage": "https://explorer.viabtc.com/btc",
+                    "block": "https://explorer.viabtc.com/btc/block/%block%",
+                    "transaction": "https://explorer.viabtc.com/btc/tx/%transaction%",
+                    "address": "https://explorer.viabtc.com/btc/address/%address%"
+                },
+                "bitcoin-cash": {
+                    "homepage": "https://explorer.viabtc.com/bch",
+                    "block": "https://explorer.viabtc.com/bch/block/%block%",
+                    "transaction": "https://explorer.viabtc.com/bch/tx/%transaction%",
+                    "address": "https://explorer.viabtc.com/bch/address/%address%"
+                },
+                "dogecoin": {
+                    "homepage": "https://explorer.viabtc.com/doge",
+                    "block": "https://explorer.viabtc.com/doge/block/%block%",
+                    "transaction": "https://explorer.viabtc.com/doge/tx/%transaction%",
+                    "address": "https://explorer.viabtc.com/doge/address/%address%"
+                },
+                "ecash": {
+                    "homepage": "https://explorer.viabtc.com/xec",
+                    "block": "https://explorer.viabtc.com/xec/block/%block%",
+                    "transaction": "https://explorer.viabtc.com/xec/tx/%transaction%",
+                    "address": "https://explorer.viabtc.com/xec/address/%address%"
+                },
+                "litecoin": {
+                    "homepage": "https://explorer.viabtc.com/ltc",
+                    "block": "https://explorer.viabtc.com/ltc/block/%block%",
+                    "transaction": "https://explorer.viabtc.com/ltc/tx/%transaction%",
+                    "address": "https://explorer.viabtc.com/ltc/address/%address%"
+                }
+            }
+        },
+        {
+            "id": "xrplwin",
+            "name": "xrplwin.com",
+            "description": "Explore XRPLedger or Xahau with detailed transaction breakdown, hook explorer, validators, UNL, governance and more.",
+            "link": "https://xrplwin.com",
+            "x": null,
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "xrp-ledger": {
+                    "homepage": "https://xrplwin.com",
+                    "block": "https://xrplwin.com/ledger/%block%",
+                    "transaction": "https://xrplwin.com/tx/%transaction%",
+                    "address": "https://xrpscan.com/account/%address%"
+                }
+            }
+        },
+        {
+            "id": "xrpscan",
+            "name": "xrpscan.com",
+            "description": "Explore XRP Ledger, accounts, addresses, balances, transactions, validators, nodes, amendments, metrics and charts.",
+            "link": "https://xrpscan.com",
+            "x": "https://x.com/xrpscan",
+            "discord": null,
+            "search": null,
+            "blockchains": {
+                "xrp-ledger": {
+                    "homepage": "https://xrpscan.com",
+                    "block": "https://xrpscan.com/ledger/%block%",
+                    "transaction": "https://xrpscan.com/tx/%transaction%",
+                    "address": "https://xrpscan.com/account/%address%"
+                }
+            }
+        }
+    ]
+}
