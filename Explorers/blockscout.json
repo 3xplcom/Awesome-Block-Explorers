@@ -13,6 +13,34 @@
       "transaction": "https://eth.blockscout.com/tx/%transaction%",
       "address": "https://eth.blockscout.com/address/%address%",
       "search": "https://eth.blockscout.com/search-results?q=%search%"
+    },
+    "base": {
+      "homepage": "https://base.blockscout.com",
+      "block": "https://base.blockscout.com/block/%block%",
+      "transaction": "https://base.blockscout.com/tx/%transaction%",
+      "address": "https://base.blockscout.com/address/%address%",
+      "search": "https://base.blockscout.com/search-results?q=%search%"
+    },
+    "ethereum-classic": {
+      "homepage": "https://etc.blockscout.com",
+      "block": "https://etc.blockscout.com/block/%block%",
+      "transaction": "https://etc.blockscout.com/tx/%transaction%",
+      "address": "https://etc.blockscout.com/address/%address%",
+      "search": "https://etc.blockscout.com/search-results?q=%search%"
+    },
+    "gnosis": {
+      "homepage": "https://gnosis.blockscout.com",
+      "block": "https://gnosis.blockscout.com/block/%block%",
+      "transaction": "https://gnosis.blockscout.com/tx/%transaction%",
+      "address": "https://gnosis.blockscout.com/address/%address%",
+      "search": "https://gnosis.blockscout.com/search-results?q=%search%"
+    },
+    "optimism": {
+      "homepage": "https://explorer.optimism.io",
+      "block": "https://explorer.optimism.io/block/%block%",
+      "transaction": "https://explorer.optimism.io/tx/%transaction%",
+      "address": "https://explorer.optimism.io/address/%address%",
+      "search": "https://explorer.optimism.io/search-results?q=%search%"
     }
   }
 }
