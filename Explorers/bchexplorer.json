@@ -1,0 +1,17 @@
+{
+  "id": "bchexplorer",
+  "name": "bchexplorer.cash",
+  "description": "Bitcoin Cash explorer by Melroy, viewing real-time stats, mempool, graphs and more...",
+  "link": "https://bchexplorer.cash",
+  "x": "https://x.com/bchexplorer",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "bitcoin-cash": {
+      "homepage": "https://bchexplorer.cash",
+      "block": "https://bchexplorer.cash/block/%block%",
+      "transaction": "https://bchexplorer.cash/tx/%transaction%",
+      "address": "https://bchexplorer.cash/address/%address%"
+    }
+  }
+}
