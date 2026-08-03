@@ -1,0 +1,50 @@
+{
+  "id": "paygate",
+  "name": "Paygate Explorer",
+  "description": "Free multi-chain block explorer with address & transaction lookup and rich lists, no signup",
+  "link": "https://paygate.love/explorer",
+  "discord": "https://discord.gg/m475Je2xvT",
+  "search": "https://paygate.love/explorer",
+  "blockchains": {
+    "bitcoin": {
+      "homepage": "https://paygate.love/explorer/btc",
+      "transaction": "https://paygate.love/explorer/btc/tx/%transaction%",
+      "address": "https://paygate.love/explorer/btc/address/%address%"
+    },
+    "litecoin": {
+      "homepage": "https://paygate.love/explorer/ltc",
+      "transaction": "https://paygate.love/explorer/ltc/tx/%transaction%",
+      "address": "https://paygate.love/explorer/ltc/address/%address%"
+    },
+    "dogecoin": {
+      "homepage": "https://paygate.love/explorer/doge",
+      "transaction": "https://paygate.love/explorer/doge/tx/%transaction%",
+      "address": "https://paygate.love/explorer/doge/address/%address%"
+    },
+    "ethereum": {
+      "homepage": "https://paygate.love/explorer/evm",
+      "transaction": "https://paygate.love/explorer/evm/tx/%transaction%",
+      "address": "https://paygate.love/explorer/evm/address/%address%"
+    },
+    "bnb": {
+      "homepage": "https://paygate.love/explorer/bsc",
+      "transaction": "https://paygate.love/explorer/bsc/tx/%transaction%",
+      "address": "https://paygate.love/explorer/bsc/address/%address%"
+    },
+    "ton": {
+      "homepage": "https://paygate.love/explorer/ton",
+      "transaction": "https://paygate.love/explorer/ton/tx/%transaction%",
+      "address": "https://paygate.love/explorer/ton/address/%address%"
+    },
+    "tron": {
+      "homepage": "https://paygate.love/explorer/tron",
+      "transaction": "https://paygate.love/explorer/tron/tx/%transaction%",
+      "address": "https://paygate.love/explorer/tron/address/%address%"
+    },
+    "solana": {
+      "homepage": "https://paygate.love/explorer/solana",
+      "transaction": "https://paygate.love/explorer/solana/tx/%transaction%",
+      "address": "https://paygate.love/explorer/solana/address/%address%"
+    }
+  }
+}
