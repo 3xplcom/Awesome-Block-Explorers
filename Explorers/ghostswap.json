@@ -1,0 +1,17 @@
+{
+  "id": "ghostswap",
+  "name": "GhostSwap Monero Explorer",
+  "description": "Monero block explorer with live mempool, hashrate and fees, no access logs and a free JSON API",
+  "link": "https://ghostswap.io/explorer/",
+  "x": null,
+  "discord": null,
+  "search": "https://ghostswap.io/explorer/search?q=%search%",
+  "blockchains": {
+    "monero": {
+      "homepage": "https://ghostswap.io/explorer/",
+      "block": "https://ghostswap.io/explorer/block/%block%",
+      "transaction": "https://ghostswap.io/explorer/tx/%transaction%",
+      "address": null
+    }
+  }
+}
