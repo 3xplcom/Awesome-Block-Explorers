@@ -1,0 +1,17 @@
+{
+  "id": "supercardano",
+  "name": "supercardano.com",
+  "description": "Super Cardano",
+  "link": "https://supercardano.com/",
+  "x": "https://x.com/superonchain",
+  "discord": null,
+  "search": "https://supercardano.com/search?q=%search%",
+  "blockchains": {
+    "cardano": {
+      "homepage": "https://supercardano.com/",
+      "block": "https://supercardano.com/block/%block%",
+      "transaction": "https://supercardano.com/tx/%transaction%",
+      "address": "https://supercardano.com/address/%address%"
+    }
+  }
+}
