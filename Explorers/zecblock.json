@@ -1,0 +1,17 @@
+{
+  "id": "zecblock",
+  "name": "ZecBlock",
+  "description": "Open-source Zcash block explorer with shielded pool and privacy analytics",
+  "link": "https://zecblock.com",
+  "x": "https://x.com/zecblock",
+  "discord": null,
+  "search": null,
+  "blockchains": {
+    "zcash": {
+      "homepage": "https://zecblock.com",
+      "block": "https://zecblock.com/block/%block%",
+      "transaction": "https://zecblock.com/tx/%transaction%",
+      "address": "https://zecblock.com/address/%address%"
+    }
+  }
+}
